@@ -183,26 +183,26 @@ export function questionButton(
 
   // const question = questionSet.questions[0];
   // const randomSet = questionSet.setNumber;
- // Filter question sets based on the selected difficulty
- const questionSets = subtopic.questionSets.filter(
-  (set) => set.level === selectedDifficulty,
-);
+  // Filter question sets based on the selected difficulty
+  const questionSets = subtopic.questionSets.filter(
+    (set) => set.level === selectedDifficulty,
+  );
 
-if (questionSets.length === 0) {
-  console.error('No question sets found for the selected difficulty');
-  return;
-}
+  if (questionSets.length === 0) {
+    console.error('No question sets found for the selected difficulty');
+    return;
+  }
 
-// Randomly select a question set based on difficulty level
-const questionSet = _.sample(questionSets);
-if (!questionSet) {
-  console.error('Question set not found');
-  return;
-}
+  // Randomly select a question set based on difficulty level
+  const questionSet = _.sample(questionSets);
+  if (!questionSet) {
+    console.error('Question set not found');
+    return;
+  }
 
-  const randomSet = questionSet.setNumber; 
-  const question = questionSet.questions[0]; 
-  
+  const randomSet = questionSet.setNumber;
+  const question = questionSet.questions[0];
+
   const shuffledOptions = _.shuffle(question.options);
   const buttons = shuffledOptions.map((option: string) => ({
     type: 'solid',
@@ -282,36 +282,40 @@ export function answerFeedback(
     answer === correctAnswer
       ? localised.rightAnswer(explanation)
       : localised.wrongAnswer(correctAnswer, explanation);
-    const result = isCorrect ? 1 : 0;
+  const result = isCorrect ? 1 : 0;
   return { feedbackMessage, result };
 }
 
-export function buttonWithScore(from: string, score: number, totalQuestions: number){
-return{
-  to: from,
-  type: 'button',
-  button: {
-    body: {
-      type: 'text',
-      text: {
-        body: localised.score(score, totalQuestions),
+export function buttonWithScore(
+  from: string,
+  score: number,
+  totalQuestions: number,
+) {
+  return {
+    to: from,
+    type: 'button',
+    button: {
+      body: {
+        type: 'text',
+        text: {
+          body: localised.score(score, totalQuestions),
+        },
       },
+      buttons: [
+        {
+          type: 'solid',
+          body: 'Main Menu',
+          reply: 'Main Menu',
+        },
+        {
+          type: 'solid',
+          body: 'Retake Quiz',
+          reply: 'Retake Quiz',
+        },
+      ],
+      allow_custom_response: false,
     },
-    buttons: [
-      {
-        type: 'solid',
-        body: 'Main Menu',
-        reply: 'Main Menu',
-      },
-      {
-        type: 'solid',
-        body: 'Retake Quiz',
-        reply: 'Retake Quiz',
-      },
-    ],
-    allow_custom_response: false,
-  },
-}
+  };
 }
 export function optionButton(
   from: string,
@@ -320,32 +324,41 @@ export function optionButton(
   selectedDifficulty: string,
   randomSet: string,
   currentQuestionIndex: number,
-) 
-{
+) {
   // Find the selected topic
-  const topic = data.topics.find(topic => topic.topicName === selectedMainTopic);
+  const topic = data.topics.find(
+    (topic) => topic.topicName === selectedMainTopic,
+  );
   if (!topic) {
-    console.error("Topic not found");
+    console.error('Topic not found');
     return;
   }
 
   // Find the selected subtopic
-  const subtopic = topic.subtopics.find(subtopic => subtopic.subtopicName === selectedSubtopic);
+  const subtopic = topic.subtopics.find(
+    (subtopic) => subtopic.subtopicName === selectedSubtopic,
+  );
   if (!subtopic) {
-    console.error("Subtopic not found");
+    console.error('Subtopic not found');
     return;
   }
 
   // Find the question set based on difficulty and set number
-  const questionSet = subtopic.questionSets.find(set => set.level === selectedDifficulty && set.setNumber === parseInt(randomSet));
+  const questionSet = subtopic.questionSets.find(
+    (set) =>
+      set.level === selectedDifficulty && set.setNumber === parseInt(randomSet),
+  );
   if (!questionSet) {
-    console.error("Question set not found");
+    console.error('Question set not found');
     return;
   }
 
   // Check if the current question index is valid
-  if (currentQuestionIndex < 0 || currentQuestionIndex >= questionSet.questions.length) {
-    console.error("Invalid question index");
+  if (
+    currentQuestionIndex < 0 ||
+    currentQuestionIndex >= questionSet.questions.length
+  ) {
+    console.error('Invalid question index');
     return;
   }
 
@@ -353,24 +366,23 @@ export function optionButton(
   const question = questionSet.questions[currentQuestionIndex];
   const shuffledOptions = _.shuffle(question.options);
 
-   const buttons = shuffledOptions.map((option: string) => ({
+  const buttons = shuffledOptions.map((option: string) => ({
     type: 'solid',
-    body: option, 
-    reply: option, 
+    body: option,
+    reply: option,
   }));
   return {
     to: from,
-      type: 'button',
-      button: {
-        body: {
-          type: 'text',
-          text: {
-            body: question.question, 
-          },
+    type: 'button',
+    button: {
+      body: {
+        type: 'text',
+        text: {
+          body: question.question,
         },
-        buttons: buttons,
-        allow_custom_response: false,
       },
+      buttons: buttons,
+      allow_custom_response: false,
+    },
   };
-        
-  }
+}

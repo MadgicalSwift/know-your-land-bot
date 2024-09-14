@@ -48,7 +48,7 @@ export class ChatbotService {
     // } else {
     //   console.log('User data====', userData);
     //  await this.userService.deleteUser(from, botID);
-      //  return 'ok';
+    //  return 'ok';
     // }
 
     // Convert plain user data to a User class instance

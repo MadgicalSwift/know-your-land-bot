@@ -6,20 +6,17 @@ import { dynamoDBClient } from 'src/config/database-config.service';
 import { v4 as uuidv4 } from 'uuid';
 const { USERS_TABLE } = process.env;
 
-
 @Injectable()
 export class UserService {
   async createUser(
     mobileNumber: string,
     language: string,
     botID: string,
-    
   ): Promise<User | any> {
     try {
       let user = await this.findUserByMobileNumber(mobileNumber, botID);
 
       if (user) {
-       
         const updateUser = {
           TableName: USERS_TABLE,
           Item: user,
@@ -34,7 +31,6 @@ export class UserService {
             mobileNumber: mobileNumber,
             language: language,
             Botid: botID,
-        
           },
         };
         await dynamoDBClient().put(newUser).promise();
@@ -45,15 +41,13 @@ export class UserService {
     }
   }
 
-
-
-  
   async findUserByMobileNumber(mobileNumber, Botid) {
     try {
       // console.log(mobileNumber, Botid)
       const params = {
         TableName: USERS_TABLE,
-        KeyConditionExpression: 'mobileNumber = :mobileNumber and Botid = :Botid',
+        KeyConditionExpression:
+          'mobileNumber = :mobileNumber and Botid = :Botid',
         ExpressionAttributeValues: {
           ':mobileNumber': mobileNumber,
           ':Botid': Botid,
@@ -90,13 +84,14 @@ export class UserService {
       const params = {
         TableName: USERS_TABLE,
         Key: {
-          mobileNumber: mobileNumber ,
-          Botid: Botid ,
+          mobileNumber: mobileNumber,
+          Botid: Botid,
         },
       };
       await dynamoDBClient().delete(params).promise();
-      console.log(`User with mobileNumber ${mobileNumber} and Botid ${Botid} deleted successfully.`);
-      
+      console.log(
+        `User with mobileNumber ${mobileNumber} and Botid ${Botid} deleted successfully.`,
+      );
     } catch (error) {
       console.error('Error deleting user from DynamoDB:', error);
     }

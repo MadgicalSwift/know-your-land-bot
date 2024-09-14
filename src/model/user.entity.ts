@@ -27,5 +27,4 @@ export class User {
 
   @IsString()
   score: number = 0;
-
 }
