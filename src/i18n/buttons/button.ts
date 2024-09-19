@@ -281,7 +281,7 @@ export function answerFeedback(
   const feedbackMessage =
     answer === correctAnswer
       ? localised.rightAnswer(explanation)
-      : localised.wrongAnswer(correctAnswer, explanation);
+      : localised.wrongAnswer(answer, explanation);
   const result = isCorrect ? 1 : 0;
   return { feedbackMessage, result };
 }
