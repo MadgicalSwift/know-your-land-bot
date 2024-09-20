@@ -1,5 +1,5 @@
 import data from '../../datasource/data.json';
-import { localised } from '../historyquiz/localised-strings';
+import { localised } from '../en/localised-strings';
 import _ from 'lodash';
 
 export function createMainTopicButtons(from: string) {

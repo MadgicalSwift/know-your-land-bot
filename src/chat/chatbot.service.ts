@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import IntentClassifier from '../intent/intent.classifier';
 import { MessageService } from 'src/message/message.service';
 import { UserService } from 'src/model/user.service';
-import { localised } from 'src/i18n/historyquiz/localised-strings';
+import { localised } from 'src/i18n/en/localised-strings';
 import data from '../datasource/data.json';
 import { plainToClass } from 'class-transformer';
 import { User } from 'src/model/user.entity';
@@ -225,7 +225,7 @@ export class ChatbotService {
 
     // Handle text message input - reset user data and send a welcome message
     if (localised.validText.includes(text.body)) {
-      user.mobileNumber = from;
+     /*  user.mobileNumber = from;
       user.language = 'english';
       user.Botid = botID;
       user.selectedMainTopic = null;
@@ -233,8 +233,8 @@ export class ChatbotService {
       user.selectedDifficulty = null;
       user.selectedSet = null;
       user.questionsAnswered = 0;
-      user.score = 0;
-      await this.userService.saveUser(user);
+      user.score = 0; */
+      //await this.userService.saveUser(user);
 
       await this.message.sendWelcomeMessage(from, user.language);
       return 'ok';

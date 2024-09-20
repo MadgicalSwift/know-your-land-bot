@@ -1,5 +1,5 @@
 import * as natural from 'natural';
-import { localisedStrings } from 'src/i18n/en/localised-strings';
+import { localised } from 'src/i18n/en/localised-strings';
 
 class IntentClassifier {
   private classifier: natural.BayesClassifier;
@@ -15,7 +15,7 @@ class IntentClassifier {
 
   private getEntities(intent: string, message: string): string[] {
     if (intent === 'greeting') {
-      if (localisedStrings.language_hindi.indexOf(message)) {
+      if (localised.language_hindi.indexOf(message)) {
         return ['hindi'];
       } else {
         return ['english'];
