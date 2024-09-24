@@ -58,7 +58,7 @@ export class ChatbotService {
       this.mixpanel.track('Button_Click', trackingData);
 
       // Handle 'Main Menu' button - reset user quiz data and send welcome message
-      if (buttonBody === 'Main Menu') {
+      if (buttonBody === localised.mainMenu) {
         user.selectedDifficulty = null;
         user.selectedSet = null;
         user.questionsAnswered = 0;
@@ -68,7 +68,7 @@ export class ChatbotService {
         return 'ok';
       }
       // Handle 'Retake Quiz' button - reset quiz progress and send the first question
-      if (buttonBody === 'Retake Quiz') {
+      if (buttonBody === localised.retakeQuiz) {
         user.questionsAnswered = 0;
         user.score = 0;
         await this.userService.saveUser(user);
@@ -88,7 +88,7 @@ export class ChatbotService {
         return 'ok';
       }
       // Handle 'More Explanation' button - send complete explanation for the subtopic
-      if (buttonBody === 'More Explanation') {
+      if (buttonBody === localised.Moreexplanation) {
         const topic = user.selectedSubtopic;
         // Find the selected subtopic in the list of topics
         const subtopic = this.topics
@@ -106,7 +106,7 @@ export class ChatbotService {
       }
       // Handle 'Test Yourself' button - show difficulty options to the user
 
-      if (buttonBody === 'Test Yourself') {
+      if (buttonBody === localised.testYourself) {
         await this.message.difficultyButtons(from);
         return 'ok';
       }

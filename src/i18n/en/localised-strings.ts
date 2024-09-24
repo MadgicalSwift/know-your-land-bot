@@ -7,6 +7,10 @@ export const localised = {
   validText: ['hi', 'Hi', 'HI', 'hI', 'Hello', 'hello', 'hola'],
   selectSubtopic: (topicName: string) =>
   `📜 Please select a topic for **${topicName}**:`,
+  mainMenu:'Main Menu',
+  retakeQuiz:'Retake Quiz',
+  testYourself: 'Test Yourself',
+  Moreexplanation:'More Explanation',
   explanation: (subtopicName: string, description: string) =>
   `📖 **Explanation of ${subtopicName}:**\n${description}`,
   moreExplanation: (subtopicName: string, description: string) =>
