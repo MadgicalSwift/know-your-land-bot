@@ -174,16 +174,6 @@ export function questionButton(
     console.error('Subtopic not found');
   }
 
-  // const questionSet = subtopic.questionSets.find(
-  //   (set) => set.level === selectedDifficulty,
-  // );
-  // if (!questionSet) {
-  //   console.error('Question set not found');
-  // }
-
-  // const question = questionSet.questions[0];
-  // const randomSet = questionSet.setNumber;
-  // Filter question sets based on the selected difficulty
   const questionSets = subtopic.questionSets.filter(
     (set) => set.level === selectedDifficulty,
   );
@@ -274,10 +264,6 @@ export function answerFeedback(
   }
   const correctAnswer = question.answer;
   const isCorrect = answer === correctAnswer;
-  // const feedbackMessage =
-  //   answer === correctAnswer
-  //     ? `Right answer. \n${explanation}`
-  //     : `Wrong answer.\n Right answer: **${correctAnswer}** \n${explanation}`;
   const feedbackMessage =
     answer === correctAnswer
       ? localised.rightAnswer(explanation)

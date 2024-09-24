@@ -42,15 +42,6 @@ export class ChatbotService {
       userData = await this.userService.createUser(from, 'english', botID);
     }
 
-    // if (userData === undefined) {
-    //   console.log('Userdata is undefined');
-    //   return 'ok';
-    // } else {
-    //   console.log('User data====', userData);
-    //  await this.userService.deleteUser(from, botID);
-    //  return 'ok';
-    // }
-
     // Convert plain user data to a User class instance
     const user = plainToClass(User, userData);
 
@@ -225,17 +216,7 @@ export class ChatbotService {
 
     // Handle text message input - reset user data and send a welcome message
     if (localised.validText.includes(text.body)) {
-     /*  user.mobileNumber = from;
-      user.language = 'english';
-      user.Botid = botID;
-      user.selectedMainTopic = null;
-      user.selectedSubtopic = null;
-      user.selectedDifficulty = null;
-      user.selectedSet = null;
-      user.questionsAnswered = 0;
-      user.score = 0; */
-      //await this.userService.saveUser(user);
-
+    
       await this.message.sendWelcomeMessage(from, user.language);
       return 'ok';
     }

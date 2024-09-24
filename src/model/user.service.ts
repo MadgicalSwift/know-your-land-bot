@@ -43,7 +43,7 @@ export class UserService {
 
   async findUserByMobileNumber(mobileNumber, Botid) {
     try {
-      // console.log(mobileNumber, Botid)
+     
       const params = {
         TableName: USERS_TABLE,
         KeyConditionExpression:
@@ -75,8 +75,6 @@ export class UserService {
         score: user.score,
       },
     };
-
-    // console.log('updateUser====', updateUser);
     return await dynamoDBClient().put(updateUser).promise();
   }
   async deleteUser(mobileNumber: string, Botid: string): Promise<void> {

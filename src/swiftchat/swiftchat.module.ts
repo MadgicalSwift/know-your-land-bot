@@ -2,11 +2,11 @@
 
 import { Module } from '@nestjs/common';
 import { SwiftchatMessageService } from './swiftchat.service';
-import { MessageModule } from 'src/message/message.module'; // Correct the import path as necessary
+import { MessageModule } from 'src/message/message.module'; 
 import { MixpanelService } from 'src/mixpanel/mixpanel.service';
 
 @Module({
-  imports: [MessageModule], // Import MessageModule
+  imports: [MessageModule],
   providers: [SwiftchatMessageService, MixpanelService],
   exports: [SwiftchatMessageService],
 })
