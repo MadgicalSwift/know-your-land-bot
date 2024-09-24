@@ -38,7 +38,6 @@ export class ChatbotService {
 
     // If no user data is found, create a new user
     if (!userData) {
-      console.log('User not found, creating a new user.');
       userData = await this.userService.createUser(from, 'english', botID);
     }
 
@@ -100,7 +99,8 @@ export class ChatbotService {
 
           await this.message.sendCompleteExplanation(from, description, topic);
         } else {
-          console.error('Subtopic not found');
+          
+          
         }
         return 'ok';
       }
@@ -198,7 +198,7 @@ export class ChatbotService {
           const subtopicName = subtopic.subtopicName;
           const description = subtopic.description[0];
           if (!description) {
-            console.error('Description not found');
+            
           }
 
           user.selectedSubtopic = subtopicName;
@@ -207,7 +207,7 @@ export class ChatbotService {
 
           await this.message.sendExplanation(from, description, subtopicName);
         } else {
-          console.error('Not found');
+          
         }
       }
 

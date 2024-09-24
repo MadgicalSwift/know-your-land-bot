@@ -56,7 +56,7 @@ export function createSubTopicButtons(from: string, topicName: string) {
       },
     };
   } else {
-    console.log(`No subtopics found for ${topicName}`);
+    
     return null;
   }
 }
@@ -164,14 +164,14 @@ export function questionButton(
     (topic) => topic.topicName === selectedMainTopic,
   );
   if (!topic) {
-    console.error('Topic not found');
+    
   }
 
   const subtopic = topic.subtopics.find(
     (subtopic) => subtopic.subtopicName === selectedSubtopic,
   );
   if (!subtopic) {
-    console.error('Subtopic not found');
+    
   }
 
   const questionSets = subtopic.questionSets.filter(
@@ -179,14 +179,14 @@ export function questionButton(
   );
 
   if (questionSets.length === 0) {
-    console.error('No question sets found for the selected difficulty');
+   
     return;
   }
 
   // Randomly select a question set based on difficulty level
   const questionSet = _.sample(questionSets);
   if (!questionSet) {
-    console.error('Question set not found');
+    
     return;
   }
 
@@ -229,14 +229,14 @@ export function answerFeedback(
 ) {
   const topic = data.topics.find((t) => t.topicName === selectedMainTopic);
   if (!topic) {
-    console.error('Topic not found');
+    
   }
 
   const subtopic = topic.subtopics.find(
     (st) => st.subtopicName === selectedSubtopic,
   );
   if (!subtopic) {
-    console.error('Subtopic not found');
+    
   }
 
   // Find the question set by its level and set number
@@ -246,21 +246,21 @@ export function answerFeedback(
   );
 
   if (!questionSet) {
-    console.log('Question set not found');
+   
   }
 
   const question = questionSet.questions[currentQuestionIndex];
   if (!question) {
-    console.error('Question not found');
+    
   }
 
   const explanation = question.explanation;
   if (!explanation) {
-    console.error('Explanation not found');
+    
   }
 
   if (!question.answer) {
-    console.error('answer not found');
+    
   }
   const correctAnswer = question.answer;
   const isCorrect = answer === correctAnswer;
@@ -316,7 +316,8 @@ export function optionButton(
     (topic) => topic.topicName === selectedMainTopic,
   );
   if (!topic) {
-    console.error('Topic not found');
+    
+    
     return;
   }
 
@@ -325,7 +326,8 @@ export function optionButton(
     (subtopic) => subtopic.subtopicName === selectedSubtopic,
   );
   if (!subtopic) {
-    console.error('Subtopic not found');
+    
+    
     return;
   }
 
@@ -335,7 +337,7 @@ export function optionButton(
       set.level === selectedDifficulty && set.setNumber === parseInt(randomSet),
   );
   if (!questionSet) {
-    console.error('Question set not found');
+    
     return;
   }
 
@@ -344,7 +346,7 @@ export function optionButton(
     currentQuestionIndex < 0 ||
     currentQuestionIndex >= questionSet.questions.length
   ) {
-    console.error('Invalid question index');
+    
     return;
   }
 

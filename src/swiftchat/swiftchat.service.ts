@@ -78,7 +78,6 @@ export class SwiftchatMessageService extends MessageService {
       selectedDifficulty,
     );
     if (!messageData) {
-      console.error('Message data not found');
       return;
     }
     const response = await this.sendMessage(
