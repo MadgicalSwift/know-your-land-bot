@@ -35,10 +35,42 @@ export class SwiftchatMessageService extends MessageService {
   }
 
   async sendWelcomeMessage(from: string, language: string) {
+    
+    const message= localised.welcomeMessage;
+    const requestData= this.prepareRequestData(from, message);
+    const response = await this.sendMessage(
+      this.baseUrl,
+      requestData,
+      this.apiKey,
+    );
+    return response;
+  }
+  async endMessage(from: string) {
+    
+    const message= localised.endMessage;
+    const requestData= this.prepareRequestData(from, message);
+    const response = await this.sendMessage(
+      this.baseUrl,
+      requestData,
+      this.apiKey,
+    );
+    return response;
+  }
+  async sendInitialTopics(from:string){
     const messageData = createMainTopicButtons(from);
     const response = await this.sendMessage(
       this.baseUrl,
       messageData,
+      this.apiKey,
+    );
+    return response;
+  }
+  async sendName(from:string){
+    const message= "Can you please tell me your name?";
+    const requestData= this.prepareRequestData(from, message);
+    const response = await this.sendMessage(
+      this.baseUrl,
+      requestData,
       this.apiKey,
     );
     return response;
@@ -128,7 +160,62 @@ export class SwiftchatMessageService extends MessageService {
     );
     return response;
   }
+  // async handleViewChallenges(from: string, userData: any): Promise<void>{
+  //   try {
+      
+  //     const topStudents = await this.userService.getTopStudents(
+  //       userData.Botid,
+  //       userData.currentTopic,
+  //       userData.setNumber,
+  //     );
+  //     if (topStudents.length === 0) {
+  
+  //       await this.swiftchatMessageService.sendMessage({
+  //         to: from,
+  //         type: 'text',
+  //         text: { body: 'No challenges have been completed yet.' },
+  //       });
+  //       return;
+  //     }
+  //     // Format the response message with the top 3 students
+  //     let message = 'Top 3 Users:\n\n';
+  //     topStudents.forEach((student, index) => {
+  //       const totalScore = student.score || 0;
+  //       const studentName = student.name || 'Unknown';
+      
+  //       let badge = '';
+  //       if (totalScore === 10) {
+  //         badge = 'Gold 🥇';
+  //       } else if (totalScore >= 7) {
+  //         badge = 'Silver 🥈';
+  //       } else if (totalScore >= 5) {
+  //         badge = 'Bronze 🥉';
+  //       } else {
+  //         badge = 'No';
+  //       }
 
+  //       message += `${index + 1}. ${studentName}\n`;
+  //       message += `    Score: ${totalScore}\n`;
+  //       message += `    Badge: ${badge}\n\n`;
+  //     });
+
+  //     // Send the message with the top students' names, scores, and badges
+  //     await this.sendMessage(this.baseUrl,{
+  //       to: from,
+  //       type: 'text',
+  //       text: { body: message },
+  //     }, this.apiKey);
+  //   } catch (error) {
+  //     console.error('Error handling View Challenges:', error);
+  //     await this.sendMessage(this.baseUrl,{
+  //       to: from,
+  //       type: 'text',
+  //       text: {
+  //         body: 'An error occurred while fetching challenges. Please try again later.',
+  //       },
+  //     }, this.apiKey);
+  //   }
+  // }
   async checkAnswer(
     from: string,
     answer: string,
@@ -186,8 +273,10 @@ export class SwiftchatMessageService extends MessageService {
     return { response, randomSet };
   }
 
-  async sendScore(from: string, score: number, totalQuestions: number) {
-    const messageData = buttonWithScore(from, score, totalQuestions);
+  async sendScore(from: string, score: number, totalQuestions: number, badge:string) {
+  
+
+    const messageData = buttonWithScore(from, score, totalQuestions, badge);
     const response = await this.sendMessage(
       this.baseUrl,
       messageData,
