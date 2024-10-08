@@ -20,7 +20,7 @@ export function createMainTopicButtons(from: string) {
       body: {
         type: 'text',
         text: {
-          body: localised.welcomeMessage,
+          body: localised.chooseTopic,
         },
       },
       buttons: buttons,
@@ -168,7 +168,7 @@ export function questionButton(
   }
 
   const subtopic = topic.subtopics.find(
-    (subtopic) => subtopic.subtopicName === selectedSubtopic,
+    (subtopic) => subtopic.subtopicName == selectedSubtopic,
   );
   if (!subtopic) {
     
@@ -240,20 +240,20 @@ export function answerFeedback(
   }
 
   // Find the question set by its level and set number
+
   const questionSet = subtopic.questionSets.find(
     (qs) =>
       qs.level === selectedDifficulty && qs.setNumber === parseInt(randomSet),
   );
-
+  // console.log(questionSet);
   if (!questionSet) {
    
   }
-
+  // console.log(currentQuestionIndex);
   const question = questionSet.questions[currentQuestionIndex];
-  if (!question) {
-    
-  }
+  
 
+  // console.log(question);
   const explanation = question.explanation;
   if (!explanation) {
     
@@ -263,12 +263,16 @@ export function answerFeedback(
     
   }
   const correctAnswer = question.answer;
-  const isCorrect = answer === correctAnswer;
+  const userAnswer = Array.isArray(answer) ? answer[0] : answer;
+  const correctAns = Array.isArray(correctAnswer) ? correctAnswer[0] : correctAnswer;
+  
+  const isCorrect = userAnswer === correctAns;
   const feedbackMessage =
-    answer === correctAnswer
+    isCorrect
       ? localised.rightAnswer(explanation)
-      : localised.wrongAnswer(answer, explanation);
+      : localised.wrongAnswer(correctAns, explanation);
   const result = isCorrect ? 1 : 0;
+
   return { feedbackMessage, result };
 }
 
@@ -276,6 +280,7 @@ export function buttonWithScore(
   from: string,
   score: number,
   totalQuestions: number,
+  badge:string
 ) {
   return {
     to: from,
@@ -284,7 +289,7 @@ export function buttonWithScore(
       body: {
         type: 'text',
         text: {
-          body: localised.score(score, totalQuestions),
+          body: localised.score(score, totalQuestions, badge),
         },
       },
       buttons: [
@@ -298,6 +303,11 @@ export function buttonWithScore(
           body: 'Retake Quiz',
           reply: 'Retake Quiz',
         },
+        {
+          type: 'solid',
+          body: 'View Challenges',
+          reply: 'View Challenges',
+        }
       ],
       allow_custom_response: false,
     },

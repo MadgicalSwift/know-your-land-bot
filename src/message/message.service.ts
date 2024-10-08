@@ -24,8 +24,8 @@ export abstract class MessageService {
       });
       return response.data;
     } catch (error) {
-      console.log('Error sending message:', error.response?.data);
-      // throw new CustomException(error);
+      // console.log('Error sending message:', error.response?.data);
+      throw new CustomException(error);
     }
   }
 
@@ -57,6 +57,8 @@ export abstract class MessageService {
     randomSet: string,
     currentQuestionIndex: number,
   );
+  abstract sendName(from:string);
+  abstract sendInitialTopics(from:string);
   abstract getQuestionBySet(
     from: string,
     answer: string,
@@ -66,6 +68,8 @@ export abstract class MessageService {
     randomSet: string,
     currentQuestionIndex: number,
   );
-  abstract sendScore(from: string, score: number, totalQuestions: number);
+  // abstract handleViewChallenges(from:string, userData:any);
+  abstract sendScore(from: string, score: number, totalQuestions: number, badge:string);
+  abstract endMessage(from:string);
   abstract sendLanguageChangedMessage(from: string, language: string);
 }
