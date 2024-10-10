@@ -71,7 +71,7 @@ export class ChatbotService {
 
       // Handle 'Main Menu' button - reset user quiz data and send welcome message
       if (buttonBody === localised.mainMenu) {
-        user.selectedDifficulty = null;
+        
         user.selectedSet = null;
         user.questionsAnswered = 0;
         user.score = 0;
@@ -87,14 +87,13 @@ export class ChatbotService {
         await this.userService.saveUser(user);
         const selectedMainTopic = user.selectedMainTopic;
         const selectedSubtopic = user.selectedSubtopic;
-        const selectedDifficulty = user.selectedDifficulty;
+        // const selectedDifficulty = user.selectedDifficulty;
         const randomSet = user.selectedSet;
         await this.message.getQuestionBySet(
           from,
           buttonBody,
           selectedMainTopic,
           selectedSubtopic,
-          selectedDifficulty,
           randomSet,
           user.questionsAnswered,
         );
@@ -124,39 +123,32 @@ export class ChatbotService {
       }
       // Handle 'Test Yourself' button - show difficulty options to the user
 
-      if (buttonBody === localised.testYourself) {
-        await this.message.difficultyButtons(from);
-        return 'ok';
-      }
-      // Handle difficulty selection buttons (Easy, Medium, Hard) - save the selected difficulty and send the first question
-      if (['Easy', 'Medium', 'Hard'].includes(buttonBody)) {
-        user.selectedDifficulty = buttonBody;
+      if (buttonBody === localised.startQuiz) {
+        
         user.questionsAnswered=0;
         await this.userService.saveUser(user);
 
         const selectedMainTopic = user.selectedMainTopic;
         const selectedSubtopic = user.selectedSubtopic;
-        const selectedDifficulty = user.selectedDifficulty;
         
         const { randomSet } = await this.message.sendQuestion(
           from,
           selectedMainTopic,
           selectedSubtopic,
-          selectedDifficulty,
         );
 
         user.selectedSet = randomSet;
         
         await this.userService.saveUser(user);
-
         return 'ok';
       }
+
       // Handle quiz answer submission - check if the user is answering a quiz question
-      if (user.selectedDifficulty && user.selectedSet) {
+      if ( user.selectedSet) {
         
         const selectedMainTopic = user.selectedMainTopic;
         const selectedSubtopic = user.selectedSubtopic;
-        const selectedDifficulty = user.selectedDifficulty;
+        // const selectedDifficulty = user.selectedDifficulty;
         const randomSet = user.selectedSet;
         const currentQuestionIndex = user.questionsAnswered;
         const { result } = await this.message.checkAnswer(
@@ -164,7 +156,6 @@ export class ChatbotService {
           buttonBody,
           selectedMainTopic,
           selectedSubtopic,
-          selectedDifficulty,
           randomSet,
           currentQuestionIndex,
         );
@@ -192,7 +183,6 @@ export class ChatbotService {
           const challengeData = {
             topic: selectedMainTopic,
             subTopic:selectedSubtopic,
-            level:selectedDifficulty,
             question: [
               {
                 setNumber: randomSet,
@@ -225,7 +215,6 @@ export class ChatbotService {
           buttonBody,
           selectedMainTopic,
           selectedSubtopic,
-          selectedDifficulty,
           randomSet,
           user.questionsAnswered,
         );
@@ -235,13 +224,14 @@ export class ChatbotService {
 
       // Handle topic selection - find the main topic and save it to the user data
       const topic = this.topics.find((topic) => topic.topicName === buttonBody);
-
+      // console.log("topic", topic);
       if (topic) {
         const mainTopic = topic.topicName;
 
         user.selectedMainTopic = mainTopic;
 
         await this.userService.saveUser(user);
+        // console.log("Main topic:", mainTopic)
 
         await this.message.sendSubTopics(from, mainTopic);
       } else {
@@ -259,7 +249,7 @@ export class ChatbotService {
           user.selectedSubtopic = subtopicName;
 
           await this.userService.saveUser(user);
-
+          // console.log(subtopicName, description)
           await this.message.sendExplanation(from, description, subtopicName);
         } else {
           
@@ -280,7 +270,7 @@ export class ChatbotService {
         if (!userData) {
           await this.userService.createUser(from, 'English', botID);
         }
-        user.selectedDifficulty=null;
+  
         user.selectedSet= null;   
         user.selectedMainTopic=null;
         user.selectedSubtopic=null;
@@ -315,7 +305,6 @@ export class ChatbotService {
         userData.selectedMainTopic,
         userData.selectedSet,
         userData.selectedSubtopic, 
-        userData.selectedDifficulty
       );
       if (topStudents.length === 0) {
   
@@ -368,5 +357,3 @@ export class ChatbotService {
 
 }
 export default ChatbotService;
-
-

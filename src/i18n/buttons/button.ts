@@ -74,8 +74,13 @@ export function createButtonWithExplanation(
     },
     {
       type: 'solid',
-      body: 'Test Yourself',
-      reply: 'Test Yourself',
+      body: 'Start Quiz',
+      reply: 'Start Quiz',
+    },
+    {
+      type: 'solid',
+      body: 'Main Menu',
+      reply: 'Main Menu',
     },
   ];
   return {
@@ -101,8 +106,13 @@ export function createTestYourSelfButton(
   const buttons = [
     {
       type: 'solid',
-      body: 'Test Yourself',
-      reply: 'Test Yourself',
+      body: 'Start Quiz',
+      reply: 'Start Quiz',
+    },
+    {
+      type: 'solid',
+      body: 'Main Menu',
+      reply: 'Main Menu',
     },
   ];
   return {
@@ -158,7 +168,7 @@ export function questionButton(
   from: string,
   selectedMainTopic: string,
   selectedSubtopic: string,
-  selectedDifficulty: string,
+
 ) {
   const topic = data.topics.find(
     (topic) => topic.topicName === selectedMainTopic,
@@ -174,10 +184,7 @@ export function questionButton(
     
   }
 
-  const questionSets = subtopic.questionSets.filter(
-    (set) => set.level === selectedDifficulty,
-  );
-
+  const questionSets = subtopic.questionSets;
   if (questionSets.length === 0) {
    
     return;
@@ -223,7 +230,6 @@ export function answerFeedback(
   answer: string,
   selectedMainTopic: string,
   selectedSubtopic: string,
-  selectedDifficulty: string,
   randomSet: string,
   currentQuestionIndex: number,
 ) {
@@ -243,7 +249,7 @@ export function answerFeedback(
 
   const questionSet = subtopic.questionSets.find(
     (qs) =>
-      qs.level === selectedDifficulty && qs.setNumber === parseInt(randomSet),
+      qs.setNumber === parseInt(randomSet),
   );
   // console.log(questionSet);
   if (!questionSet) {
@@ -317,7 +323,6 @@ export function optionButton(
   from: string,
   selectedMainTopic: string,
   selectedSubtopic: string,
-  selectedDifficulty: string,
   randomSet: string,
   currentQuestionIndex: number,
 ) {
@@ -344,7 +349,7 @@ export function optionButton(
   // Find the question set based on difficulty and set number
   const questionSet = subtopic.questionSets.find(
     (set) =>
-      set.level === selectedDifficulty && set.setNumber === parseInt(randomSet),
+       set.setNumber === parseInt(randomSet),
   );
   if (!questionSet) {
     

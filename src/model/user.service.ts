@@ -83,7 +83,7 @@ export class UserService {
     }
   }
 
-  async getTopStudents(Botid: string, topic: string, setNumber: number, subTopic:string, level:string): Promise<User[] | any> {
+  async getTopStudents(Botid: string, topic: string, setNumber: number, subTopic:string): Promise<User[] | any> {
     try {
         const params = {
             TableName: USERS_TABLE,
@@ -92,7 +92,7 @@ export class UserService {
                 ':Botid': Botid,
             },
         };
-        console.log(Botid, topic, subTopic, level, setNumber);
+        console.log(Botid, topic, subTopic, setNumber);
         const result = await dynamoDBClient().query(params).promise();
         // console.log(result)
         const users = result.Items || [];
@@ -109,7 +109,7 @@ export class UserService {
             if (user.challenges && Array.isArray(user.challenges)) {
                 console.log("User's challenges:", JSON.stringify(user.challenges, null, 2));  
                 user.challenges.forEach(challenge => {
-                    if (challenge.topic === topic && challenge.subTopic=== subTopic && challenge.level=== level) {
+                    if (challenge.topic === topic && challenge.subTopic=== subTopic ) {
                         if (challenge.question && Array.isArray(challenge.question)) {
                             challenge.question.forEach(question => {
                                 if (Number(question.setNumber) === Number(setNumber) && question.score != null) {
@@ -122,7 +122,7 @@ export class UserService {
                             console.log(`No questions found or questions is not an array for user ${user.mobileNumber}`);
                         }
                     } else {
-                        console.log(`Topic does not match for user ${user.mobileNumber}: ${challenge.topic} != ${topic}, ${challenge.subtopic} != ${subTopic}, ${challenge.level}!= ${level}`);
+                        console.log(`Topic does not match for user ${user.mobileNumber}: ${challenge.topic} != ${topic}, ${challenge.subtopic} != ${subTopic}`);
                     }
                 });
             } else {
@@ -173,7 +173,6 @@ export class UserService {
         name: user.name,
         selectedMainTopic: user.selectedMainTopic,
         selectedSubtopic: user.selectedSubtopic,
-        selectedDifficulty: user.selectedDifficulty,
         selectedSet: user.selectedSet,
         questionsAnswered: user.questionsAnswered,
         score: user.score,
