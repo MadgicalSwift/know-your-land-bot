@@ -8,7 +8,10 @@
           "description": [
             "💃 Bhangra is a lively and energetic folk dance that originated in the Punjab region of India and Pakistan.",
             "🥁 It was traditionally performed to celebrate the harvest season, accompanied by the beats of the dhol, a traditional drum.",
-            "🎶 Modern Bhangra has evolved to include influences from Western music genres like hip-hop, pop, and reggae, but it still retains its cultural roots."
+            "🎶 Modern Bhangra has evolved to include influences from Western music genres like hip-hop, pop, and reggae, but it still retains its cultural roots.",
+            "During the partition of India in 1947, Bhangra became a symbol of Punjabi identity, especially for",
+            "those who were displaced. In the mid-20th century, the dance began to gain popularity outside Punjab as it was performed at larger cultural festivals and celebrations across India.",
+            "In the 1980s and 1990s, Bhangra saw a significant transformation as it merged with modern genres like hip-hop and pop, particularly among Punjabi communities in the United Kingdom, Canada, and the United States."
           ],
           "questionSets": [
             {
@@ -134,7 +137,10 @@
           "description": [
             "💃 Giddha is a traditional folk dance performed by women in the Punjab region of India and Pakistan.",
             "🎶 It involves energetic hand clapping and graceful movements, often accompanied by traditional folk songs called 'boliyan'.",
-            "👩‍👩‍👧‍👧 Giddha is performed at festivals, weddings, and other celebratory events, reflecting the joyful spirit of Punjabi women."
+            "👩‍👩‍👧‍👧 Giddha is performed at festivals, weddings, and other celebratory events, reflecting the joyful spirit of Punjabi women.",
+            "Giddha has its roots in ancient Punjabi traditions, where women would perform to celebrate important social occasions such as festivals, weddings, and the harvest season.",
+            "evolved from earlier Punjabi dance forms, particularly the dance called Ring Dance or Daankara, performed by village women in a circular formation.",
+            "Historically, Giddha was not only a means of entertainment but also a way for women to express their emotions, thoughts, and social issues in a male-dominated society. "
           ],
           "questionSets": [
             {
@@ -265,7 +271,10 @@
             "description": [
               "🩰 Bharatanatyam is a classical dance form that originated in Tamil Nadu, known for its grace, expression (Abhinaya), and intricate footwork (Nritta).",
               "🎶 It is one of the oldest dance forms in India and is deeply connected to the Hindu temples of Tamil Nadu, often performed to express religious stories and emotions.",
-              "👩‍🎤 Bharatanatyam integrates elements of music, rhythm, and storytelling, traditionally performed by female dancers wearing vibrant costumes and intricate jewelry."
+              "👩‍🎤 Bharatanatyam integrates elements of music, rhythm, and storytelling, traditionally performed by female dancers wearing vibrant costumes and intricate jewelry.",
+              "Bharatanatyam can be traced back over 2,000 years to the temples of South India. It was originally performed as a form of devotion and worship by the Devadasis, women who were dedicated to serving the temple deities through dance and music. ",
+              "These temple dancers would perform sacred dances in the inner sanctums of temples, expressing devotion and narrating religious stories, especially those related to Hindu mythology.",
+              " Bharatanatyam is also referenced in the Natya Shastra, an ancient Indian treatise on the performing arts written by the sage Bharata Muni around 200 BCE."
             ]
             ,
             "questionSets": [
@@ -390,7 +399,7 @@
                       "It is a pose to worship Goddess Parvati",
                       "It is a signature step in Bharatanatyam"
                     ],
-                    "correctAnswer": "It represents the cosmic dance of Lord Shiva",
+                    "answer": "It represents the cosmic dance of Lord Shiva",
                     "explanation": "The 'Nataraja' pose in Bharatanatyam symbolizes Lord Shiva's cosmic dance, representing creation and destruction."
                   }
 ]
@@ -406,7 +415,7 @@
                       "It is a pose to worship Goddess Parvati",
                       "It is a signature step in Bharatanatyam"
                     ],
-                    "correctAnswer": "It represents the cosmic dance of Lord Shiva",
+                    "answer": "It represents the cosmic dance of Lord Shiva",
                     "explanation": "The 'Nataraja' pose in Bharatanatyam symbolizes Lord Shiva's cosmic dance, representing creation and destruction."
                   },
                   {
@@ -417,7 +426,7 @@
                       "Complex footwork",
                       "All of the above"
                     ],
-                    "correctAnswer": "All of the above",
+                    "answer": "All of the above",
                     "explanation": "Bharatanatyam is characterized by its use of symmetrical movements, storytelling, and complex footwork."
                   },
                   {
@@ -428,7 +437,7 @@
                       "Guiding the dancer's emotional expression",
                       "All of the above"
                     ],
-                    "correctAnswer": "All of the above",
+                    "answer": "All of the above",
                     "explanation": "The 'Guru' plays a pivotal role in teaching the techniques, traditions, and emotional expressions of Bharatanatyam."
                   },
                   {
@@ -439,7 +448,7 @@
                       "An emotional theme",
                       "A costume piece"
                     ],
-                    "correctAnswer": "An emotional theme",
+                    "answer": "An emotional theme",
                     "explanation": "'Rasa' refers to the emotional flavor conveyed by the dancer, ranging from love to anger."
                   },
                   {
@@ -450,7 +459,7 @@
                       "8",
                       "9"
                     ],
-                    "correctAnswer": "9",
+                    "answer": "9",
                     "explanation": "There are 9 primary 'Rasas' or emotional themes in Bharatanatyam, including love, anger, and heroism."
                   },
                   {
@@ -461,7 +470,7 @@
                       "Pakhawaj",
                       "Sarangi"
                     ],
-                    "correctAnswer": "Veena",
+                    "answer": "Veena",
                     "explanation": "The Veena is one of the string instruments used in Bharatanatyam performances."
                   },
                   {
@@ -472,7 +481,7 @@
                       "Talas",
                       "Bhavas"
                     ],
-                    "correctAnswer": "Mudras",
+                    "answer": "Mudras",
                     "explanation": "'Mudras' are symbolic hand gestures used in Bharatanatyam to tell stories and express emotions."
                   },
                   {
@@ -483,7 +492,7 @@
                       "To convey facial expressions",
                       "To guide costume choices"
                     ],
-                    "correctAnswer": "To provide rhythm",
+                    "answer": "To provide rhythm",
                     "explanation": "'Tala' refers to the rhythmic cycle that provides the time structure in Bharatanatyam performances."
                   },
                   {
@@ -494,7 +503,7 @@
                       "Fear",
                       "Peace"
                     ],
-                    "correctAnswer": "Devotion",
+                    "answer": "Devotion",
                     "explanation": "'Bhakti Rasa' is the theme of devotion, often directed toward deities in Bharatanatyam."
                   },
                   {
@@ -505,7 +514,7 @@
                       "It is used to narrate a heroic tale",
                       "It indicates a rhythmic change"
                     ],
-                    "correctAnswer": "It is a gesture of greeting or prayer",
+                    "answer": "It is a gesture of greeting or prayer",
                     "explanation": "'Anjali' mudra, where the hands are folded together, is used in Bharatanatyam to signify greeting or reverence."
                   }
                 ]
@@ -516,7 +525,10 @@
             "subtopicName": "Karakattam 🌾",
             "description": [
               "Karakattam (also known as Karakatt or Kudam dance) is a traditional Tamil folk dance form that originated in the southern part of India",
-              " particularly in the Tamil Nadu region. Here are some important aspects and explanations related to Karakattam:"
+              " particularly in the Tamil Nadu region. Here are some important aspects and explanations related to Karakattam:",
+              "The history of Karakattam dates back centuries and is closely tied to agricultural practices and rituals in Tamil Nadu. As an agrarian society, the Tamil people depended heavily on the monsoon rains for successful crops.",
+              "The word Karakattam is derived from karakam (meaning pot) and attam (meaning dance). The dance is named after the karakam, a decorated pot filled with water or rice, which the dancers",
+              "balance on their heads while performing intricate movements. Originally, the pots symbolized fertility and were a way to offer thanks to the goddess for a good harvest."
             ],
 
             "questionSets": [
@@ -531,7 +543,7 @@
                       "Lord Shiva",
                       "The Moon Goddess"
                     ],
-                    "correctAnswer": "Mariamman, the Rain Goddess",
+                    "answer": "Mariamman, the Rain Goddess",
                     "explanation": "Karakattam is a folk dance performed to honor Mariamman, the rain goddess, seeking her blessings for rain and fertility."
                   },
                   {
@@ -542,7 +554,7 @@
                       "A Drum",
                       "A Flag"
                     ],
-                    "correctAnswer": "A Pot",
+                    "answer": "A Pot",
                     "explanation": "The primary prop in Karakattam is a decorated pot (karakam) balanced on the dancer's head."
                   },
                   {
@@ -553,7 +565,7 @@
                       "Sitar",
                       "Tabla"
                     ],
-                    "correctAnswer": "Nadaswaram",
+                    "answer": "Nadaswaram",
                     "explanation": "The Nadaswaram, a traditional wind instrument, is often played along with percussion instruments during Karakattam performances."
                   },
                   {
@@ -564,7 +576,7 @@
                       "Shiva Karakam and Devi Karakam",
                       "Lyrical Karakam and Dance Karakam"
                     ],
-                    "correctAnswer": "Aatta Karakam and Sakthi Karakam",
+                    "answer": "Aatta Karakam and Sakthi Karakam",
                     "explanation": "Aatta Karakam is performed for entertainment, while Sakthi Karakam is a religious offering to the goddess Mariamman."
                   },
                   {
@@ -575,7 +587,7 @@
                       "Karnataka",
                       "Andhra Pradesh"
                     ],
-                    "correctAnswer": "Tamil Nadu",
+                    "answer": "Tamil Nadu",
                     "explanation": "Karakattam originated in Tamil Nadu and is an integral part of Tamil folk culture."
                   },
                   {
@@ -586,7 +598,7 @@
                       "Harmony with nature",
                       "Fertility"
                     ],
-                    "correctAnswer": "Harmony with nature",
+                    "answer": "Harmony with nature",
                     "explanation": "The pot symbolizes the harmony between nature and the human body in Karakattam."
                   },
                   {
@@ -597,7 +609,7 @@
                       "Summer",
                       "Spring"
                     ],
-                    "correctAnswer": "Monsoon",
+                    "answer": "Monsoon",
                     "explanation": "Karakattam is traditionally performed during the monsoon season to honor the rain goddess and seek her blessings for rainfall."
                   },
                   {
@@ -608,7 +620,7 @@
                       "Sword fighting",
                       "Lively music"
                     ],
-                    "correctAnswer": "Sword fighting",
+                    "answer": "Sword fighting",
                     "explanation": "Karakattam involves balancing a pot and lively music but does not involve sword fighting."
                   },
                   {
@@ -619,7 +631,7 @@
                       "It involves animal sacrifices.",
                       "It is a form of entertainment."
                     ],
-                    "correctAnswer": "It is performed for religious offerings.",
+                    "answer": "It is performed for religious offerings.",
                     "explanation": "Sakthi Karakam is a religious dance performed as an offering to the goddess Mariamman."
                   },
                   {
@@ -630,7 +642,7 @@
                       "Flute",
                       "Santoor"
                     ],
-                    "correctAnswer": "Mridangam",
+                    "answer": "Mridangam",
                     "explanation": "The Mridangam, a percussion instrument, is often used in Karakattam performances."
                   }
                 ]
@@ -646,7 +658,7 @@
                       "Durga",
                       "Ganesh"
                     ],
-                    "correctAnswer": "Mariamman",
+                    "answer": "Mariamman",
                     "explanation": "Mariamman, the rain goddess, is honored in Karakattam to seek blessings for rainfall and good harvest."
                   },
                   {
@@ -657,7 +669,7 @@
                       "It distracts the audience.",
                       "It has no significant role."
                     ],
-                    "correctAnswer": "It sets the rhythm for the dance.",
+                    "answer": "It sets the rhythm for the dance.",
                     "explanation": "The rhythmic beats of traditional instruments guide the steps of the Karakattam dance."
                   },
                   {
@@ -668,7 +680,7 @@
                       "Diwali",
                       "Navaratri"
                     ],
-                    "correctAnswer": "Aadi Perukku",
+                    "answer": "Aadi Perukku",
                     "explanation": "Karakattam is often performed during the Aadi Perukku festival, a celebration of the monsoon season and water deities."
                   },
                   {
@@ -679,7 +691,7 @@
                       "A decorated pot",
                       "A metal sword"
                     ],
-                    "correctAnswer": "A decorated pot",
+                    "answer": "A decorated pot",
                     "explanation": "The dancers balance a decorated pot (karakam) on their heads while performing the intricate steps."
                   },
                   {
@@ -690,7 +702,7 @@
                       "With fruits and vegetables",
                       "With jewels and silk"
                     ],
-                    "correctAnswer": "With flowers and lamps",
+                    "answer": "With flowers and lamps",
                     "explanation": "The pots are often decorated with flowers and lamps, symbolizing purity and devotion."
                   },
                   {
@@ -701,7 +713,7 @@
                       "To honor deities and offer devotion",
                       "To showcase individual skill"
                     ],
-                    "correctAnswer": "To honor deities and offer devotion",
+                    "answer": "To honor deities and offer devotion",
                     "explanation": "Sakthi Karakam is performed as a religious offering to the rain goddess Mariamman."
                   },
                   {
@@ -712,7 +724,7 @@
                       "Classical Karakam",
                       "Devotional Karakam"
                     ],
-                    "correctAnswer": "Aatta Karakam",
+                    "answer": "Aatta Karakam",
                     "explanation": "Aatta Karakam is performed for entertainment during festivals and celebrations."
                   },
                   {
@@ -723,7 +735,7 @@
                       "The beauty of silence",
                       "The balance of the universe"
                     ],
-                    "correctAnswer": "The rhythm of nature",
+                    "answer": "The rhythm of nature",
                     "explanation": "The rhythmic and energetic movements in Karakattam represent the flow and rhythm of nature."
                   },
                   {
@@ -734,7 +746,7 @@
                       "Western dresses",
                       "Silk robes"
                     ],
-                    "correctAnswer": "Traditional Tamil attire",
+                    "answer": "Traditional Tamil attire",
                     "explanation": "Dancers wear traditional Tamil attire, with women in sarees and men in dhotis."
                   },
                   {
@@ -745,7 +757,7 @@
                       "Karnataka",
                       "Tamil Nadu"
                     ],
-                    "correctAnswer": "Tamil Nadu",
+                    "answer": "Tamil Nadu",
                     "explanation": "Karakattam is a folk dance form that originated in the Tamil Nadu region of South India."
                   }
                 ]
@@ -761,7 +773,11 @@
             "subtopicName": "Garba 🎶",
             "description": [
               "🛰️ Garba is a traditional folk dance from the state of Gujarat, India. It is usually performed during the Navaratri festival, a nine-day Hindu festival that honors the goddess Durga. The dance is characterized by its rhythmic, circular movements",
-              " symbolizing the cycle of life and the reverence of divine power.,"
+              " symbolizing the cycle of life and the reverence of divine power.,",
+              "The word Garba is derived from the Sanskrit term Garbha meaning womb and Deep meaning lamp. The dance is named after an earthen pot (garbi or garbo) that traditionally holds a lighted lamp inside it.",
+              "The pot is considered a symbol of life and the divine feminine energy. The lamp represents the soul or inner light, while the pot symbolizes the body that contains this light.",
+              "Garba’s roots go back several centuries, making it an ancient cultural practice in Gujarat. It is believed to have evolved from older traditions of goddess worship and fertility rituals in rural India.",
+              "During the nine nights of Navratri, Garba is performed in honor of Goddess Amba (a form of Durga), celebrating her power and energy. It is also a prayer for prosperity, health, and a good harvest, reflecting its agricultural and devotional roots."
             ],
             "questionSets": [
               {
@@ -770,43 +786,43 @@
                   {
                     "question": "Garba is traditionally associated with which Indian festival?",
                     "options": ["Holi", "Navaratri", "Diwali", "Raksha Bandhan"],
-                    "correctAnswer": "Navaratri",
+                    "answer": "Navaratri",
                     "explanation": "Garba is commonly performed during the nine-day Hindu festival of Navaratri, which honors the goddess Durga."
                   },
                   {
                     "question": "Which goddess is primarily worshipped through Garba?",
                     "options": ["Lakshmi", "Durga", "Saraswati", "Parvati"],
-                    "correctAnswer": "Durga",
+                    "answer": "Durga",
                     "explanation": "Garba is performed to worship goddess Durga, particularly in her manifestations of power and feminine energy."
                   },
                   {
                     "question": "What does the circular movement in Garba symbolize?",
                     "options": ["Love", "The cycle of life", "Unity", "Joy"],
-                    "correctAnswer": "The cycle of life",
+                    "answer": "The cycle of life",
                     "explanation": "The circular nature of Garba symbolizes the cycle of life, with the goddess in the center representing eternal divine power."
                   },
                   {
                     "question": "Which instrument is commonly used to provide rhythm in Garba performances?",
                     "options": ["Dhol", "Tabla", "Veena", "Sitar"],
-                    "correctAnswer": "Dhol",
+                    "answer": "Dhol",
                     "explanation": "The Dhol, a traditional drum, is one of the key instruments used in Garba music to maintain the rhythm."
                   },
                   {
                     "question": "What is placed at the center of the dance circle during Garba?",
                     "options": ["A lamp or pot", "A statue of Krishna", "A water bowl", "A flag"],
-                    "correctAnswer": "A lamp or pot",
+                    "answer": "A lamp or pot",
                     "explanation": "A lamp or earthen pot (called Garbo) is placed in the center, symbolizing the goddess Durga and the divine power."
                   },
                   {
                     "question": "Which attire is traditionally worn by women during Garba?",
                     "options": ["Saree", "Chaniya Choli", "Salwar Kameez", "Lehenga"],
-                    "correctAnswer": "Chaniya Choli",
+                    "answer": "Chaniya Choli",
                     "explanation": "Women usually wear Chaniya Choli, a colorful traditional attire decorated with mirrors and embroidery."
                   },
                   {
                     "question": "What does the word 'Garba' mean in Sanskrit?",
                     "options": ["Dance", "Womb", "Goddess", "Festivity"],
-                    "correctAnswer": "Womb",
+                    "answer": "Womb",
                     "explanation": "The word 'Garba' is derived from the Sanskrit word 'Garbha', which means 'womb', symbolizing fertility and life."
                   },
                   {
@@ -817,19 +833,19 @@
                       "Garba is performed by men, Dandiya by women",
                       "Garba is danced solo, Dandiya in pairs"
                     ],
-                    "correctAnswer": "Garba uses claps, Dandiya uses sticks",
+                    "answer": "Garba uses claps, Dandiya uses sticks",
                     "explanation": "Garba involves rhythmic clapping while dancing, whereas Dandiya involves using sticks to create a rhythmic pattern."
                   },
                   {
                     "question": "Garba is believed to have originated in which state of India?",
                     "options": ["Rajasthan", "Maharashtra", "Gujarat", "Punjab"],
-                    "correctAnswer": "Gujarat",
+                    "answer": "Gujarat",
                     "explanation": "Garba originated in Gujarat, where it remains one of the most popular folk dance forms, especially during Navaratri."
                   },
                   {
                     "question": "What is a 'Garbo' in the context of Garba?",
                     "options": ["A pot used in the center", "A dance step", "A type of song", "A festival celebrated in Gujarat"],
-                    "correctAnswer": "A pot used in the center",
+                    "answer": "A pot used in the center",
                     "explanation": "A 'Garbo' refers to the earthen pot or lamp placed at the center of the Garba dance circle to symbolize the goddess."
                   }
                 ]
@@ -840,43 +856,43 @@
                   {
                     "question": "Which color is often worn by women during Garba?",
                     "options": ["Blue", "White", "Red", "Black"],
-                    "correctAnswer": "Red",
+                    "answer": "Red",
                     "explanation": "Women often wear red or other bright colors during Garba, symbolizing vibrancy, energy, and festivity."
                   },
                   {
                     "question": "How do dancers move in Garba?",
                     "options": ["In a square", "In a circle", "In a line", "Randomly"],
-                    "correctAnswer": "In a circle",
+                    "answer": "In a circle",
                     "explanation": "Garba dancers move in a circular pattern, symbolizing the cyclical nature of life and the universe."
                   },
                   {
                     "question": "What is the typical duration of Garba performances?",
                     "options": ["A few hours", "All nine nights of Navaratri", "A week", "A day"],
-                    "correctAnswer": "All nine nights of Navaratri",
+                    "answer": "All nine nights of Navaratri",
                     "explanation": "Garba is performed for nine nights during the Navaratri festival in honor of the goddess Durga."
                   },
                   {
                     "question": "Which traditional garment is worn by men during Garba?",
                     "options": ["Kediya", "Kurta", "Sherwani", "Dhoti"],
-                    "correctAnswer": "Kediya",
+                    "answer": "Kediya",
                     "explanation": "Men wear a traditional outfit called 'Kediya', a short frock-like kurta with dhoti or pajama, during Garba."
                   },
                   {
                     "question": "Garba songs typically praise which deity?",
                     "options": ["Lord Krishna", "Goddess Durga", "Lord Shiva", "Lord Rama"],
-                    "correctAnswer": "Goddess Durga",
+                    "answer": "Goddess Durga",
                     "explanation": "Garba songs are often sung in praise of goddess Durga, reflecting her strength and power."
                   },
                   {
                     "question": "Which city in Gujarat is famous for large-scale Garba events?",
                     "options": ["Ahmedabad", "Surat", "Vadodara", "Rajkot"],
-                    "correctAnswer": "Vadodara",
+                    "answer": "Vadodara",
                     "explanation": "Vadodara hosts some of the most elaborate and large-scale Garba events, attracting dancers from all over the world."
                   },
                   {
                     "question": "Which of the following is a popular Garba song?",
                     "options": ["Dholida", "Aigiri Nandini", "Sanedo", "Nagada Sang Dhol"],
-                    "correctAnswer": "Sanedo",
+                    "answer": "Sanedo",
                     "explanation": "'Sanedo' is one of the most popular Garba songs, often played during the Navaratri festival to energize dancers."
                   },
                   {
@@ -887,23 +903,548 @@
                       "To express emotions",
                       "To prepare for battle"
                     ],
-                    "correctAnswer": "To worship the goddess",
+                    "answer": "To worship the goddess",
                     "explanation": "Garba is primarily a devotional dance, performed to worship goddess Durga and celebrate her divine power."
                   },
                   {
                     "question": "Garba is often performed before which religious ritual?",
                     "options": ["Aarti", "Prasad distribution", "Satsang", "Vrat"],
-                    "correctAnswer": "Aarti",
+                    "answer": "Aarti",
                     "explanation": "Garba is typically performed before the aarti (ritual of worship) during Navaratri, as an act of devotion."
                   },
                   {
                     "question": "Which day of Navaratri is considered most significant for Garba performances?",
                     "options": ["First", "Seventh", "Eighth", "Ninth"],
-                    "correctAnswer": "Ninth",
+                    "answer": "Ninth",
                     "explanation": "The ninth day of Navaratri, also known as 'Navami', is considered the most significant for Garba performances as it celebrates the culmination of the festival."
                   }
                 ]
-              }              
+              } ,
+              {
+                "setNumber": 3,
+                "questions": [
+                  {
+                    "question": "What is the main instrument used in Garba music?",
+                    "options": ["Dhol", "Tabla", "Flute", "Guitar"],
+                    "answer": "Dhol",
+                    "explanation": "The Dhol is a traditional drum that provides the primary rhythm for Garba music, encouraging dancers to move."
+                  },
+                  {
+                    "question": "What festival primarily features Garba dance?",
+                    "options": ["Diwali", "Holi", "Navratri", "Makar Sankranti"],
+                    "answer": "Navratri",
+                    "explanation": "Garba is primarily performed during Navratri, a nine-night festival dedicated to Goddess Durga."
+                  },
+                  {
+                    "question": "Which of the following is a popular Garba dance form?",
+                    "options": ["Bhangra", "Dandiya Raas", "Kathakali", "Odissi"],
+                    "answer": "Dandiya Raas",
+                    "explanation": "Dandiya Raas is a popular dance form associated with Garba, characterized by the use of sticks."
+                  },
+                  {
+                    "question": "What is the significance of the Garba dance in cultural terms?",
+                    "options": ["A form of meditation", "A means of storytelling", "A way to honor deities", "All of the above"],
+                    "answer": "All of the above",
+                    "explanation": "Garba serves as a cultural expression, storytelling, and honoring deities through dance and music."
+                  },
+                  {
+                    "question": "What type of outfits do participants typically wear during Garba?",
+                    "options": ["Traditional Gujarati attire", "Casual wear", "Western dresses", "Uniforms"],
+                    "answer": "Traditional Gujarati attire",
+                    "explanation": "Participants often wear traditional Gujarati attire, such as chaniya choli for women and kurta for men, during Garba."
+                  },
+                  {
+                    "question": "What does the term 'Garba' derive from?",
+                    "options": ["A type of dance", "A pot used in rituals", "A song", "A festival"],
+                    "answer": "A pot used in rituals",
+                    "explanation": "The term 'Garba' is derived from the word 'Garbi', which refers to a pot used in the dance."
+                  },
+                  {
+                    "question": "How does the Garba dance promote community?",
+                    "options": ["By encouraging competition", "Through group participation", "By highlighting individual talent", "None of the above"],
+                    "answer": "Through group participation",
+                    "explanation": "Garba promotes community by encouraging group participation, fostering a sense of togetherness among dancers."
+                  },
+                  {
+                    "question": "What type of energy is typically associated with Garba performances?",
+                    "options": ["Low and mellow", "Energetic and vibrant", "Slow and steady", "Calm and relaxing"],
+                    "answer": "Energetic and vibrant",
+                    "explanation": "Garba performances are known for their energetic and vibrant nature, captivating participants and spectators alike."
+                  },
+                  {
+                    "question": "What is the typical duration of a Garba performance?",
+                    "options": ["15 minutes", "30 minutes", "1 hour", "All night"],
+                    "answer": "All night",
+                    "explanation": "Garba performances can last all night during the Navratri festival, often continuing until dawn."
+                  },
+                  {
+                    "question": "Which deity is primarily worshipped during Garba?",
+                    "options": ["Lord Krishna", "Goddess Durga", "Lord Shiva", "Lord Ganesha"],
+                    "answer": "Goddess Durga",
+                    "explanation": "Garba is performed in honor of Goddess Durga, celebrating her various forms during Navratri."
+                  }
+                ]
+              } ,
+              {
+                "setNumber": 4,
+                "questions": [
+                  {
+                    "question": "Which of the following best describes the pace of Garba music?",
+                    "options": ["Slow and melodic", "Fast and upbeat", "Static", "Chaotic"],
+                    "answer": "Fast and upbeat",
+                    "explanation": "Garba music is fast and upbeat, setting an energetic tone for the dance."
+                  },
+                  {
+                    "question": "How do dancers usually move in Garba?",
+                    "options": ["In straight lines", "In circles", "In random directions", "In pairs"],
+                    "answer": "In circles",
+                    "explanation": "Dancers usually move in circles during Garba, creating a vibrant and communal atmosphere."
+                  },
+                  {
+                    "question": "What is often highlighted in Garba performances?",
+                    "options": ["Speed and energy", "Slow movements", "Simplicity", "Individual talent"],
+                    "answer": "Speed and energy",
+                    "explanation": "Garba performances often highlight speed and energy, showcasing lively and dynamic movements."
+                  },
+                  {
+                    "question": "What is a key element of Garba attire for women?",
+                    "options": ["Trousers", "Chaniya choli", "Saree", "Western dress"],
+                    "answer": "Chaniya choli",
+                    "explanation": "Women typically wear a chaniya choli, a traditional outfit that is colorful and suitable for dancing."
+                  },
+                  {
+                    "question": "What aspect of Garba promotes health and fitness?",
+                    "options": ["Gentle movements", "Fast-paced dancing", "Sitting down", "Static poses"],
+                    "answer": "Fast-paced dancing",
+                    "explanation": "The fast-paced dancing in Garba promotes cardiovascular fitness and overall health."
+                  },
+                  {
+                    "question": "How do Garba participants express their devotion?",
+                    "options": ["Through dance", "By watching", "Through silence", "By sitting quietly"],
+                    "answer": "Through dance",
+                    "explanation": "Participants express their devotion through dance, celebrating their faith in a vibrant and lively manner."
+                  },
+                  {
+                    "question": "What is the main focus of Garba celebrations?",
+                    "options": ["Winning competitions", "Celebrating community and culture", "Displaying individual talent", "Dressing up"],
+                    "answer": "Celebrating community and culture",
+                    "explanation": "The main focus of Garba celebrations is to celebrate community and culture, bringing people together."
+                  },
+                  {
+                    "question": "What is the primary goal of Garba events?",
+                    "options": ["To entertain only", "To socialize and celebrate", "To compete", "To showcase talent"],
+                    "answer": "To socialize and celebrate",
+                    "explanation": "The primary goal of Garba events is to socialize and celebrate with family and friends."
+                  },
+                  {
+                    "question": "Which traditional dance is often compared to Garba?",
+                    "options": ["Bharatanatyam", "Kathak", "Dandiya Raas", "Samba"],
+                    "answer": "Dandiya Raas",
+                    "explanation": "Dandiya Raas is often compared to Garba due to its similar festive atmosphere and community participation."
+                  },
+                  {
+                    "question": "What do the colorful patterns on Garba attire represent?",
+                    "options": ["Chaos", "Tradition", "Uniformity", "Creativity"],
+                    "answer": "Tradition",
+                    "explanation": "The colorful patterns on Garba attire represent tradition and cultural heritage."
+                  }
+                ]
+              }  ,
+              {
+                "setNumber": 5,
+                "questions": [
+                  {
+                    "question": "What type of movements characterize Garba?",
+                    "options": ["Slow and graceful", "Fast and rhythmic", "Stiff and formal", "Relaxed and casual"],
+                    "answer": "Fast and rhythmic",
+                    "explanation": "Garba is characterized by fast and rhythmic movements that match the lively music."
+                  },
+                  {
+                    "question": "What role does singing play in Garba?",
+                    "options": ["It is not important", "It provides melody", "It is purely background noise", "It distracts dancers"],
+                    "answer": "It provides melody",
+                    "explanation": "Singing provides melody and enhances the overall atmosphere during Garba performances."
+                  },
+                  {
+                    "question": "How are Garba steps typically taught?",
+                    "options": ["Through formal classes", "Through watching videos", "Through family tradition", "All of the above"],
+                    "answer": "All of the above",
+                    "explanation": "Garba steps are often taught through formal classes, videos, and family traditions, ensuring the dance is passed down."
+                  },
+                  {
+                    "question": "Which traditional Gujarat festival includes Garba?",
+                    "options": ["Uttarayan", "Diwali", "Navratri", "Makar Sankranti"],
+                    "answer": "Navratri",
+                    "explanation": "Navratri is the primary festival in Gujarat that includes Garba as a key cultural expression."
+                  },
+                  {
+                    "question": "What is the typical audience engagement during Garba?",
+                    "options": ["Complete silence", "Active participation", "Boredom", "Disinterest"],
+                    "answer": "Active participation",
+                    "explanation": "Audiences often engage actively by clapping, singing along, and sometimes joining in the dance."
+                  },
+                  {
+                    "question": "What does Garba symbolize in cultural terms?",
+                    "options": ["War", "Unity and joy", "Sadness", "Divisiveness"],
+                    "answer": "Unity and joy",
+                    "explanation": "Garba symbolizes unity and joy, bringing people together in celebration."
+                  },
+                  {
+                    "question": "How does Garba help in cultural preservation?",
+                    "options": ["By ignoring tradition", "Through modern influences", "By teaching younger generations", "By changing its form"],
+                    "answer": "By teaching younger generations",
+                    "explanation": "Garba helps in cultural preservation by teaching younger generations about their heritage and traditions."
+                  },
+                  {
+                    "question": "What is the common duration of a Garba event?",
+                    "options": ["1 hour", "2-3 hours", "All night", "15 minutes"],
+                    "answer": "All night",
+                    "explanation": "Garba events are often held all night during Navratri, filled with dancing and celebration."
+                  },
+                  {
+                    "question": "What is a unique feature of Garba choreography?",
+                    "options": ["Freestyle movements", "Fixed patterns", "Unchanging steps", "Slow transitions"],
+                    "answer": "Fixed patterns",
+                    "explanation": "Garba choreography often includes fixed patterns, providing structure to the dance."
+                  },
+                  {
+                    "question": "What does the circular formation of Garba symbolize?",
+                    "options": ["Chaos", "Separation", "Community and togetherness", "Competition"],
+                    "answer": "Community and togetherness",
+                    "explanation": "The circular formation of Garba symbolizes community and togetherness, emphasizing unity among dancers."
+                  }
+                ]
+              },
+              {
+                "setNumber": 6,
+                "questions": [
+                  {
+                    "question": "What do dancers typically do during Garba?",
+                    "options": ["Dance in a straight line", "Form circles", "Stand still", "Perform solo"],
+                    "answer": "Form circles",
+                    "explanation": "Dancers typically form circles during Garba, which enhances the communal spirit of the dance."
+                  },
+                  {
+                    "question": "Which of the following instruments is used in Garba music?",
+                    "options": ["Guitar", "Drums", "Harmonium", "All of the above"],
+                    "answer": "All of the above",
+                    "explanation": "Garba music may incorporate a variety of instruments, including guitar, drums, and harmonium, contributing to its rich sound."
+                  },
+                  {
+                    "question": "What type of atmosphere does Garba create?",
+                    "options": ["Quiet and somber", "Festive and lively", "Boring and dull", "Serious and tense"],
+                    "answer": "Festive and lively",
+                    "explanation": "Garba creates a festive and lively atmosphere, encouraging joy and celebration among participants."
+                  },
+                  {
+                    "question": "Which dance form is often performed in conjunction with Garba?",
+                    "options": ["Bharatanatyam", "Kathak", "Dandiya Raas", "Odissi"],
+                    "answer": "Dandiya Raas",
+                    "explanation": "Dandiya Raas is often performed in conjunction with Garba, featuring the use of sticks in the dance."
+                  },
+                  {
+                    "question": "What is an important aspect of Garba's cultural significance?",
+                    "options": ["Modernization", "Tradition", "Individual expression", "Competition"],
+                    "answer": "Tradition",
+                    "explanation": "Garba holds cultural significance as a traditional dance that has been passed down through generations."
+                  },
+                  {
+                    "question": "What kind of decorations are typically associated with Garba events?",
+                    "options": ["Simple and minimal", "Bright and colorful", "Dark and somber", "No decorations"],
+                    "answer": "Bright and colorful",
+                    "explanation": "Garba events are typically adorned with bright and colorful decorations, enhancing the festive atmosphere."
+                  },
+                  {
+                    "question": "What is one of the main themes of Garba?",
+                    "options": ["Peace", "Love", "Devotion", "Rivalry"],
+                    "answer": "Devotion",
+                    "explanation": "Devotion to Goddess Durga and the celebration of femininity are central themes of Garba."
+                  },
+                  {
+                    "question": "Which dance is known for its rapid footwork?",
+                    "options": ["Kathakali", "Garba", "Bharatanatyam", "Samba"],
+                    "answer": "Garba",
+                    "explanation": "Garba is known for its rapid footwork, characterized by quick movements and lively energy."
+                  },
+                  {
+                    "question": "How does Garba promote unity among participants?",
+                    "options": ["Through competition", "By excluding some dancers", "Through collaborative dance", "By assigning roles"],
+                    "answer": "Through collaborative dance",
+                    "explanation": "Garba promotes unity by encouraging collaborative dance, where everyone participates together in harmony."
+                  },
+                  {
+                    "question": "What is commonly seen during a Garba celebration?",
+                    "options": ["Fireworks", "Bonfires", "Dancers in traditional attire", "Animals"],
+                    "answer": "Dancers in traditional attire",
+                    "explanation": "Garba celebrations typically feature dancers in traditional attire, enhancing the cultural richness of the event."
+                  }
+                ]
+              },
+              {
+                "setNumber": 7,
+                "questions": [
+                  {
+                    "question": "What is the significance of clapping during Garba?",
+                    "options": ["It keeps rhythm", "It shows appreciation", "It is a distraction", "It is unnecessary"],
+                    "answer": "It keeps rhythm",
+                    "explanation": "Clapping is an essential part of Garba, helping to keep the rhythm and engage participants."
+                  },
+                  {
+                    "question": "Which traditional attire is worn by men during Garba?",
+                    "options": ["Kurta and pajama", "Sari", "Lehenga", "Sherwani"],
+                    "answer": "Kurta and pajama",
+                    "explanation": "Men typically wear a kurta and pajama, which is comfortable and suitable for dancing during Garba."
+                  },
+                  {
+                    "question": "What type of events typically include Garba performances?",
+                    "options": ["Weddings", "Cultural festivals", "Religious ceremonies", "All of the above"],
+                    "answer": "All of the above",
+                    "explanation": "Garba performances can be seen at weddings, cultural festivals, and religious ceremonies, showcasing the dance's versatility."
+                  },
+                  {
+                    "question": "What is a common misconception about Garba?",
+                    "options": ["It is only for women", "It requires professional training", "It is solely a religious dance", "It cannot be performed solo"],
+                    "answer": "It is only for women",
+                    "explanation": "A common misconception is that Garba is only for women, but it is inclusive, welcoming all genders to participate."
+                  },
+                  {
+                    "question": "During which season is Garba primarily celebrated?",
+                    "options": ["Winter", "Summer", "Monsoon", "Autumn"],
+                    "answer": "Autumn",
+                    "explanation": "Garba is primarily celebrated during the autumn season, particularly during the festival of Navratri."
+                  },
+                  {
+                    "question": "What is often featured in Garba choreography?",
+                    "options": ["Fast spins", "Complex formations", "Static poses", "Slow movements"],
+                    "answer": "Fast spins",
+                    "explanation": "Fast spins and dynamic movements are often featured in Garba choreography, adding excitement to the performance."
+                  },
+                  {
+                    "question": "Which of the following best describes Garba music?",
+                    "options": ["Classical", "Folk", "Pop", "Jazz"],
+                    "answer": "Folk",
+                    "explanation": "Garba music is predominantly folk music, incorporating traditional instruments and rhythms."
+                  },
+                  {
+                    "question": "What is the main goal of participating in Garba?",
+                    "options": ["To compete", "To have fun and celebrate", "To perform for an audience", "To showcase talent"],
+                    "answer": "To have fun and celebrate",
+                    "explanation": "The main goal of participating in Garba is to have fun and celebrate community and culture."
+                  },
+                  {
+                    "question": "Which of the following is a key element of Garba attire?",
+                    "options": ["Simplicity", "Brightness", "Uniformity", "Formality"],
+                    "answer": "Brightness",
+                    "explanation": "Garba attire is known for its brightness, often featuring vibrant colors and intricate designs."
+                  },
+                  {
+                    "question": "What type of setting is ideal for Garba performances?",
+                    "options": ["Indoor stage", "Outdoor venue", "In front of a TV", "On a bus"],
+                    "answer": "Outdoor venue",
+                    "explanation": "Garba performances are ideally held in outdoor venues to accommodate large groups and create a festive atmosphere."
+                  }
+                ]
+              } ,
+              {
+                "setNumber": 8,
+                "questions": [
+                  {
+                    "question": "What is the main instrument used in Garba music?",
+                    "options": ["Dhol", "Tabla", "Flute", "Guitar"],
+                    "answer": "Dhol",
+                    "explanation": "The Dhol is a traditional drum that provides the primary rhythm for Garba music, encouraging dancers to move."
+                  },
+                  {
+                    "question": "What festival primarily features Garba dance?",
+                    "options": ["Diwali", "Holi", "Navratri", "Makar Sankranti"],
+                    "answer": "Navratri",
+                    "explanation": "Garba is primarily performed during Navratri, a nine-night festival dedicated to Goddess Durga."
+                  },
+                  {
+                    "question": "Which of the following is a popular Garba dance form?",
+                    "options": ["Bhangra", "Dandiya Raas", "Kathakali", "Odissi"],
+                    "answer": "Dandiya Raas",
+                    "explanation": "Dandiya Raas is a popular dance form associated with Garba, characterized by the use of sticks."
+                  },
+                  {
+                    "question": "What is the significance of the Garba dance in cultural terms?",
+                    "options": ["A form of meditation", "A means of storytelling", "A way to honor deities", "All of the above"],
+                    "answer": "All of the above",
+                    "explanation": "Garba serves as a cultural expression, storytelling, and honoring deities through dance and music."
+                  },
+                  {
+                    "question": "What type of outfits do participants typically wear during Garba?",
+                    "options": ["Traditional Gujarati attire", "Casual wear", "Western dresses", "Uniforms"],
+                    "answer": "Traditional Gujarati attire",
+                    "explanation": "Participants often wear traditional Gujarati attire, such as chaniya choli for women and kurta for men, during Garba."
+                  },
+                  {
+                    "question": "What does the term 'Garba' derive from?",
+                    "options": ["A type of dance", "A pot used in rituals", "A song", "A festival"],
+                    "answer": "A pot used in rituals",
+                    "explanation": "The term 'Garba' is derived from the word 'Garbi', which refers to a pot used in the dance."
+                  },
+                  {
+                    "question": "How does the Garba dance promote community?",
+                    "options": ["By encouraging competition", "Through group participation", "By highlighting individual talent", "None of the above"],
+                    "answer": "Through group participation",
+                    "explanation": "Garba promotes community by encouraging group participation, fostering a sense of togetherness among dancers."
+                  },
+                  {
+                    "question": "What type of energy is typically associated with Garba performances?",
+                    "options": ["Low and mellow", "Energetic and vibrant", "Slow and steady", "Calm and relaxing"],
+                    "answer": "Energetic and vibrant",
+                    "explanation": "Garba performances are known for their energetic and vibrant nature, captivating participants and spectators alike."
+                  },
+                  {
+                    "question": "What is the typical duration of a Garba performance?",
+                    "options": ["15 minutes", "30 minutes", "1 hour", "All night"],
+                    "answer": "All night",
+                    "explanation": "Garba performances can last all night during the Navratri festival, often continuing until dawn."
+                  },
+                  {
+                    "question": "Which deity is primarily worshipped during Garba?",
+                    "options": ["Lord Krishna", "Goddess Durga", "Lord Shiva", "Lord Ganesha"],
+                    "answer": "Goddess Durga",
+                    "explanation": "Garba is performed in honor of Goddess Durga, celebrating her various forms during Navratri."
+                  }
+                ]
+              },
+              {
+                "setNumber": 9,
+                "questions": [
+                  {
+                    "question": "How many beats are commonly used in Garba music?",
+                    "options": ["8 beats", "3 beats", "9 beats", "6 beats"],
+                    "answer": "8 beats",
+                    "explanation": "Garba music often follows an 8-beat cycle, providing a lively and rhythmic foundation for the dance."
+                  },
+                  {
+                    "question": "What is the traditional male garment worn for Garba called?",
+                    "options": ["Kediyu", "Dhoti", "Sherwani", "Kurta"],
+                    "answer": "Kediyu",
+                    "explanation": "Men typically wear a Kediyu, a traditional Gujarati garment, during Garba performances."
+                  },
+                  {
+                    "question": "Which region of India primarily celebrates Garba?",
+                    "options": ["Northern", "Southern", "Western", "Eastern"],
+                    "answer": "Western",
+                    "explanation": "Garba is primarily celebrated in the western region of India, especially in the state of Gujarat."
+                  },
+                  {
+                    "question": "Garba movements are typically based on what kind of body movements?",
+                    "options": ["Arm movements", "Footwork", "Head gestures", "Waist movements"],
+                    "answer": "Footwork",
+                    "explanation": "Garba is characterized by intricate footwork that is fast-paced and rhythmic."
+                  },
+                  {
+                    "question": "What is the religious significance of Garba?",
+                    "options": [
+                      "It celebrates the victory of good over evil",
+                      "It is a harvest dance",
+                      "It is performed to bring rain",
+                      "It celebrates wealth and prosperity"
+                    ],
+                    "answer": "It celebrates the victory of good over evil",
+                    "explanation": "Garba is performed during Navratri, which celebrates the victory of good (Goddess Durga) over evil (Mahishasura)."
+                  },
+                  {
+                    "question": "Which is a famous style of Garba?",
+                    "options": ["Dandiya Raas", "Kathak", "Bharatanatyam", "Odissi"],
+                    "answer": "Dandiya Raas",
+                    "explanation": "Dandiya Raas is a popular dance form that is often performed along with Garba during Navratri."
+                  },
+                  {
+                    "question": "What is the main theme of the songs used in Garba?",
+                    "options": ["Devotion", "Romance", "Harvest", "War"],
+                    "answer": "Devotion",
+                    "explanation": "Garba songs are typically devotional in nature, praising Goddess Durga or other Hindu deities."
+                  },
+                  {
+                    "question": "Which of the following hand props is sometimes used during Garba?",
+                    "options": ["Sticks", "Fans", "Bells", "None"],
+                    "answer": "None",
+                    "explanation": "Garba itself does not typically involve props, unlike Dandiya Raas, which uses sticks."
+                  },
+                  {
+                    "question": "Garba is traditionally performed in which season?",
+                    "options": ["Spring", "Monsoon", "Winter", "Autumn"],
+                    "answer": "Autumn",
+                    "explanation": "Garba is performed in the autumn season, coinciding with the festival of Navratri."
+                  },
+                  {
+                    "question": "Which Hindu festival is most closely associated with Garba?",
+                    "options": ["Holi", "Diwali", "Navratri", "Vasant Panchami"],
+                    "answer": "Navratri",
+                    "explanation": "Garba is performed during Navratri, a nine-day festival dedicated to Goddess Durga."
+                  }
+                ]
+              } ,
+              {
+                "setNumber": 10,
+                "questions": [
+                  {
+                    "question": "What is Garba traditionally performed to celebrate?",
+                    "options": ["Harvest season", "Diwali", "Navratri", "Holi"],
+                    "answer": "Navratri",
+                    "explanation": "Garba is traditionally performed during the festival of Navratri, a nine-day Hindu festival dedicated to Goddess Durga."
+                  },
+                  {
+                    "question": "What does the word 'Garba' mean?",
+                    "options": ["Circle", "Dance", "Womb", "Victory"],
+                    "answer": "Womb",
+                    "explanation": "The word 'Garba' is derived from the Sanskrit word 'Garbha,' meaning 'womb,' symbolizing fertility and life."
+                  },
+                  {
+                    "question": "What instrument is commonly used in Garba music?",
+                    "options": ["Dhol", "Tabla", "Flute", "Dholak"],
+                    "answer": "Dhol",
+                    "explanation": "The Dhol, a double-headed drum, is a traditional instrument used to provide rhythm during Garba performances."
+                  },
+                  {
+                    "question": "In which Indian state did Garba originate?",
+                    "options": ["Maharashtra", "Gujarat", "Rajasthan", "Punjab"],
+                    "answer": "Gujarat",
+                    "explanation": "Garba originated in the state of Gujarat and is a popular form of dance in this region."
+                  },
+                  {
+                    "question": "Which of the following is a typical attire for Garba performances?",
+                    "options": ["Lehenga Choli", "Saree", "Kurta Pajama", "Salwar Kameez"],
+                    "answer": "Lehenga Choli",
+                    "explanation": "Women typically wear colorful Lehenga Cholis during Garba performances, while men wear Kediyu or Kurta."
+                  },
+                  {
+                    "question": "What is the Garba dance often performed around?",
+                    "options": ["Fire", "Temple", "Water pot with a lamp inside", "Tree"],
+                    "answer": "Water pot with a lamp inside",
+                    "explanation": "Garba is performed around a water pot (Garbi) with a lamp inside, symbolizing the womb and the divine feminine."
+                  },
+                  {
+                    "question": "What is the tempo of Garba music?",
+                    "options": ["Slow", "Moderate", "Fast", "Varies"],
+                    "answer": "Fast",
+                    "explanation": "Garba music usually has a fast tempo to match the energetic movements of the dance."
+                  },
+                  {
+                    "question": "Which of the following is a popular form of Garba step?",
+                    "options": ["Clap", "Twirl", "Stomp", "Hop"],
+                    "answer": "Clap",
+                    "explanation": "Clapping is a central feature of Garba steps, performed in rhythm with the music."
+                  },
+                  {
+                    "question": "Which goddess is honored through Garba dance?",
+                    "options": ["Lakshmi", "Saraswati", "Durga", "Parvati"],
+                    "answer": "Durga",
+                    "explanation": "Garba is a devotional dance performed to honor Goddess Durga during Navratri."
+                  },
+                  {
+                    "question": "Garba is typically performed in which formation?",
+                    "options": ["Straight line", "Circle", "Triangle", "Square"],
+                    "answer": "Circle",
+                    "explanation": "Garba is traditionally performed in a circular formation, symbolizing the cycle of life."
+                  }
+                ]
+              }       
               
             ]
           },
@@ -912,7 +1453,11 @@
             "description": [
               "Dandiya originated from the ancient folk dances of Gujarat.",
               " The dance is believed to have evolved from the martial arts practiced by warriors",
-              "symbolizing the fight between good and evil. It is named after the sticks used in the dance, known as dandi."
+              "symbolizing the fight between good and evil. It is named after the sticks used in the dance, known as dandi.",
+              "Dandiya Raas is believed to have its roots in the ancient Raas Lila, the dance performed by Lord Krishna with the Gopis (female cowherds) of Vrindavan.",
+              "Dandiya Raas is believed to have its roots in the ancient Raas Lila, the dance performed by Lord Krishna with the Gopis (female cowherds) of Vrindavan.",
+              "In Gujarat, the dance form evolved into a folk tradition that was closely tied to the celebration of the victory of Goddess Durga over the demon Mahishasura.",
+              "Dandiya is typically performed in groups, with dancers forming two circles. Participants use decorated wooden sticks (dandiyas), which they strike against their partner’s sticks in rhythm with the music. "
             ]
             ,
             "questionSets": [
@@ -922,61 +1467,61 @@
                   {
                     "question": "What is Dandiya traditionally performed with?",
                     "options": ["Dandi sticks", "Hand claps", "Swords", "Bells"],
-                    "correctAnswer": "Dandi sticks",
+                    "answer": "Dandi sticks",
                     "explanation": "Dandiya is traditionally performed with sticks known as 'dandiyas', which represent the sword of Goddess Durga."
                   },
                   {
                     "question": "During which festival is Dandiya primarily performed?",
                     "options": ["Diwali", "Navaratri", "Holi", "Makar Sankranti"],
-                    "correctAnswer": "Navaratri",
+                    "answer": "Navaratri",
                     "explanation": "Dandiya is primarily performed during the Navaratri festival, celebrating the worship of Goddess Durga."
                   },
                   {
                     "question": "Which state in India is most famous for Dandiya?",
                     "options": ["Maharashtra", "Gujarat", "Rajasthan", "Punjab"],
-                    "correctAnswer": "Gujarat",
+                    "answer": "Gujarat",
                     "explanation": "Dandiya is most famously associated with Gujarat, where it forms a significant part of the Navaratri celebrations."
                   },
                   {
                     "question": "What is the attire typically worn during Dandiya?",
                     "options": ["Western dresses", "Traditional Indian wear", "Casual clothes", "Uniforms"],
-                    "correctAnswer": "Traditional Indian wear",
+                    "answer": "Traditional Indian wear",
                     "explanation": "Participants typically wear colorful traditional Indian attire such as chaniya cholis for women and kurtas for men during Dandiya."
                   },
                   {
                     "question": "What does the striking of sticks in Dandiya symbolize?",
                     "options": ["Unity and harmony", "Strength and power", "Celebration", "Defeat of evil"],
-                    "correctAnswer": "Unity and harmony",
+                    "answer": "Unity and harmony",
                     "explanation": "The striking of sticks in Dandiya symbolizes unity and harmony among participants as they celebrate together."
                   },
                   {
                     "question": "Which musical instruments are commonly used in Dandiya?",
                     "options": ["Piano and flute", "Guitar and violin", "Dhol and tabla", "Saxophone and drums"],
-                    "correctAnswer": "Dhol and tabla",
+                    "answer": "Dhol and tabla",
                     "explanation": "Lively music played with instruments such as dhol and tabla accompanies Dandiya, enhancing the festive atmosphere."
                   },
                   {
                     "question": "What type of dance formation is typically used in Dandiya?",
                     "options": ["Line formation", "Circle formation", "Square formation", "Random formation"],
-                    "correctAnswer": "Circle formation",
+                    "answer": "Circle formation",
                     "explanation": "Dandiya is performed in a circular formation, with dancers moving in sync with the rhythm and each other."
                   },
                   {
                     "question": "Which goddess is honored through the Dandiya dance?",
                     "options": ["Saraswati", "Lakshmi", "Durga", "Kali"],
-                    "correctAnswer": "Durga",
+                    "answer": "Durga",
                     "explanation": "Dandiya is performed in honor of Goddess Durga, symbolizing the victory of good over evil."
                   },
                   {
                     "question": "What is Dandiya Raas?",
                     "options": ["A type of flower", "A pair dance form", "A music genre", "A festival"],
-                    "correctAnswer": "A pair dance form",
+                    "answer": "A pair dance form",
                     "explanation": "Dandiya Raas is a form of Dandiya where dancers perform in pairs, enhancing the interaction and celebration."
                   },
                   {
                     "question": "What is the cultural significance of Dandiya?",
                     "options": ["Promoting solo performance", "Fostering community spirit", "Encouraging competition", "Isolating individuals"],
-                    "correctAnswer": "Fostering community spirit",
+                    "answer": "Fostering community spirit",
                     "explanation": "Dandiya fosters community spirit, bringing people together to celebrate and participate in the joy of the festival."
                   }
                 ]
@@ -987,65 +1532,587 @@
                   {
                     "question": "What does the term 'Dandi' refer to in Dandiya?",
                     "options": ["Dance", "Sticks", "Costume", "Song"],
-                    "correctAnswer": "Sticks",
+                    "answer": "Sticks",
                     "explanation": "'Dandi' refers to the sticks used in the dance, which are essential for performing Dandiya."
                   },
                   {
                     "question": "In which month is Navaratri usually celebrated?",
                     "options": ["January", "March", "October", "December"],
-                    "correctAnswer": "October",
+                    "answer": "October",
                     "explanation": "Navaratri is usually celebrated in October, marking the onset of the winter season in India."
                   },
                   {
                     "question": "How many nights does Navaratri last?",
                     "options": ["5 nights", "7 nights", "9 nights", "11 nights"],
-                    "correctAnswer": "9 nights",
+                    "answer": "9 nights",
                     "explanation": "Navaratri lasts for nine nights, celebrating different forms of the goddess each night."
                   },
                   {
                     "question": "What is the significance of the color of attire in Dandiya?",
                     "options": ["No significance", "Represents emotions", "Denotes different festivals", "Indicates social status"],
-                    "correctAnswer": "Represents emotions",
+                    "answer": "Represents emotions",
                     "explanation": "The colors of attire in Dandiya often represent different emotions and aspects of worship during the festival."
                   },
                   {
                     "question": "Which song form is commonly associated with Dandiya?",
                     "options": ["Bhajan", "Garba", "Gazal", "Qawwali"],
-                    "correctAnswer": "Garba",
+                    "answer": "Garba",
                     "explanation": "Garba songs are often played during Dandiya, complementing the energetic dance movements."
                   },
                   {
                     "question": "Which of these is a popular venue for Dandiya celebrations?",
                     "options": ["Temples", "Gardens", "Community halls", "All of the above"],
-                    "correctAnswer": "All of the above",
+                    "answer": "All of the above",
                     "explanation": "Dandiya celebrations take place in various venues including temples, gardens, and community halls."
                   },
                   {
                     "question": "What is the primary purpose of Dandiya performances?",
                     "options": ["To entertain", "To worship", "To compete", "To showcase talent"],
-                    "correctAnswer": "To worship",
+                    "answer": "To worship",
                     "explanation": "The primary purpose of Dandiya performances is to worship Goddess Durga and celebrate the spirit of Navaratri."
                   },
                   {
                     "question": "Which region is known for its unique Dandiya dance style?",
                     "options": ["North India", "South India", "West India", "East India"],
-                    "correctAnswer": "West India",
+                    "answer": "West India",
                     "explanation": "West India, particularly Gujarat, is known for its unique and vibrant Dandiya dance style during Navaratri."
                   },
                   {
                     "question": "What do the dancers often do to create rhythm during Dandiya?",
                     "options": ["Sing loudly", "Clap hands", "Strike sticks", "Dance in silence"],
-                    "correctAnswer": "Strike sticks",
+                    "answer": "Strike sticks",
                     "explanation": "Dancers create rhythm during Dandiya by striking their sticks together, adding to the lively atmosphere."
                   },
                   {
                     "question": "What is often included in Dandiya performances besides dancing?",
                     "options": ["Solo singing", "Storytelling", "Martial arts", "Group exercises"],
-                    "correctAnswer": "Storytelling",
+                    "answer": "Storytelling",
                     "explanation": "Dandiya performances often include storytelling elements, especially in variations like Dandiya Leela."
                   }
                 ]
-              }
+              },
+              {
+                "setNumber": 3,
+                "questions": [
+                  {
+                    "question": "What type of rhythm is predominant in Dandiya music?",
+                    "options": ["Slow and soft", "Fast and lively", "Static", "Rhythmic but slow"],
+                    "answer": "Fast and lively",
+                    "explanation": "Dandiya music is fast and lively, matching the energetic pace of the dance."
+                  },
+                  {
+                    "question": "What kind of decorations are often seen during Dandiya events?",
+                    "options": ["Simple and minimal", "Bright and colorful", "Dark and somber", "No decorations"],
+                    "answer": "Bright and colorful",
+                    "explanation": "Dandiya events are typically adorned with bright and colorful decorations, enhancing the festive atmosphere."
+                  },
+                  {
+                    "question": "Which instrument is crucial for the beat in Dandiya performances?",
+                    "options": ["Tabla", "Guitar", "Dandiya sticks", "Piano"],
+                    "answer": "Dandiya sticks",
+                    "explanation": "Dandiya sticks provide the beat during performances, creating a lively rhythm for dancers."
+                  },
+                  {
+                    "question": "How is the dance formation organized during Dandiya?",
+                    "options": ["In straight lines", "In circles", "In random patterns", "In pairs"],
+                    "answer": "In circles",
+                    "explanation": "Dancers usually form a circular formation during Dandiya, emphasizing community and togetherness."
+                  },
+                  {
+                    "question": "What is the traditional attire for men during Dandiya celebrations?",
+                    "options": ["Kurta and pajama", "Suit and tie", "Shorts and T-shirt", "Dhoti and kurta"],
+                    "answer": "Dhoti and kurta",
+                    "explanation": "Men traditionally wear dhoti and kurta during Dandiya celebrations, reflecting cultural heritage."
+                  },
+                  {
+                    "question": "What is often the highlight of a Dandiya night?",
+                    "options": ["Individual performances", "Solo dance competitions", "Group dances and competitions", "Cultural speeches"],
+                    "answer": "Group dances and competitions",
+                    "explanation": "The highlight of a Dandiya night is often group dances and competitions, showcasing community spirit."
+                  },
+                  {
+                    "question": "What kind of atmosphere does Dandiya create during the festival?",
+                    "options": ["Silent and somber", "Calm and relaxed", "Vibrant and energetic", "Boring"],
+                    "answer": "Vibrant and energetic",
+                    "explanation": "Dandiya creates a vibrant and energetic atmosphere, filled with excitement and joy."
+                  },
+                  {
+                    "question": "What type of footwear is often worn during Dandiya?",
+                    "options": ["Flip-flops", "Formal shoes", "Traditional juttis", "Sandals"],
+                    "answer": "Traditional juttis",
+                    "explanation": "Traditional juttis are often worn during Dandiya for comfort and cultural relevance."
+                  },
+                  {
+                    "question": "What do participants often bring to enhance their Dandiya experience?",
+                    "options": ["Food items", "Camera", "Drinks", "Flashlights"],
+                    "answer": "Drinks",
+                    "explanation": "Participants often bring drinks to stay refreshed while enjoying the Dandiya festivities."
+                  },
+                  {
+                    "question": "How do communities usually prepare for Dandiya events?",
+                    "options": ["Individually", "Collaboratively", "Not at all", "By hiring professionals"],
+                    "answer": "Collaboratively",
+                    "explanation": "Communities usually prepare for Dandiya events collaboratively, fostering a sense of community."
+                  }
+                ]
+              },
+              {
+                "setNumber": 4,
+                "questions": [
+                  {
+                    "question": "In which part of India is Dandiya most popular?",
+                    "options": ["North", "South", "East", "West"],
+                    "answer": "West",
+                    "explanation": "Dandiya is most popular in the western part of India, especially in Gujarat."
+                  },
+                  {
+                    "question": "What is the role of the drummer during Dandiya events?",
+                    "options": ["To provide rhythm", "To sing", "To lead dances", "To organize participants"],
+                    "answer": "To provide rhythm",
+                    "explanation": "The drummer plays a crucial role in providing rhythm, setting the pace for the dancers."
+                  },
+                  {
+                    "question": "Which popular Dandiya song is commonly played during the celebrations?",
+                    "options": ["Aankh Marey", "Dandiya Raas", "Nagada Sang Dhol", "Bole Chudiyan"],
+                    "answer": "Nagada Sang Dhol",
+                    "explanation": "Nagada Sang Dhol is a popular song played during Dandiya celebrations, known for its lively beats."
+                  },
+                  {
+                    "question": "What do participants often do to learn Dandiya dance moves?",
+                    "options": ["Watch videos", "Attend classes", "Practice individually", "Ask friends"],
+                    "answer": "Attend classes",
+                    "explanation": "Many participants attend classes to learn Dandiya dance moves, ensuring they can join in the celebrations."
+                  },
+                  {
+                    "question": "What are the typical decorations at Dandiya events?",
+                    "options": ["Banners and posters", "Light fixtures and flowers", "Balloons", "Minimal decorations"],
+                    "answer": "Light fixtures and flowers",
+                    "explanation": "Dandiya events typically feature vibrant light fixtures and flowers as decorations."
+                  },
+                  {
+                    "question": "How do participants typically greet each other during Dandiya?",
+                    "options": ["With silence", "With handshakes", "With hugs", "With smiles and greetings"],
+                    "answer": "With smiles and greetings",
+                    "explanation": "Participants greet each other with smiles and friendly greetings, enhancing the festive spirit."
+                  },
+                  {
+                    "question": "What is usually the theme of Dandiya decorations?",
+                    "options": ["Dark colors", "Traditional motifs", "Modern art", "Simple patterns"],
+                    "answer": "Traditional motifs",
+                    "explanation": "Dandiya decorations usually feature traditional motifs that reflect cultural heritage."
+                  },
+                  {
+                    "question": "What do dancers often do at the end of a Dandiya night?",
+                    "options": ["Leave quietly", "Thank each other", "Bow down", "Celebrate alone"],
+                    "answer": "Thank each other",
+                    "explanation": "At the end of a Dandiya night, dancers often thank each other for the joyful experience."
+                  },
+                  {
+                    "question": "Which dance form is often compared to Dandiya?",
+                    "options": ["Bharatanatyam", "Garba", "Kathak", "Odissi"],
+                    "answer": "Garba",
+                    "explanation": "Garba is often compared to Dandiya, as both are popular dance forms during Navratri."
+                  },
+                  {
+                    "question": "What is a common food item served during Dandiya events?",
+                    "options": ["Pani Puri", "Pav Bhaji", "Chole Bhature", "Samosa"],
+                    "answer": "Samosa",
+                    "explanation": "Samosa is a common food item served during Dandiya events, enjoyed by participants."
+                  }
+                ]
+              },
+              {
+                "setNumber": 5,
+                "questions": [
+                  {
+                    "question": "What role does dance play in Dandiya celebrations?",
+                    "options": ["It’s just for fun", "It signifies cultural heritage", "It’s a competition", "It’s a distraction"],
+                    "answer": "It signifies cultural heritage",
+                    "explanation": "Dance in Dandiya celebrations signifies cultural heritage, preserving traditions and stories."
+                  },
+                  {
+                    "question": "What do participants often use to keep time during Dandiya dance?",
+                    "options": ["Claps", "Drums", "Foot tapping", "Snap fingers"],
+                    "answer": "Drums",
+                    "explanation": "Participants often use drums to keep time during Dandiya dance, maintaining the rhythm."
+                  },
+                  {
+                    "question": "Which other festival shares similarities with Dandiya in terms of dance?",
+                    "options": ["Diwali", "Holi", "Onam", "Makar Sankranti"],
+                    "answer": "Holi",
+                    "explanation": "Holi shares similarities with Dandiya in terms of dance, with both festivals celebrating joy and unity."
+                  },
+                  {
+                    "question": "What do dancers often do to create energy during Dandiya?",
+                    "options": ["Jumping", "Clapping", "Shouting", "Running"],
+                    "answer": "Clapping",
+                    "explanation": "Dancers often clap while dancing to create energy and rhythm during Dandiya."
+                  },
+                  {
+                    "question": "Which type of footwear is discouraged during Dandiya?",
+                    "options": ["Traditional shoes", "Sneakers", "High heels", "Sandals"],
+                    "answer": "High heels",
+                    "explanation": "High heels are discouraged during Dandiya due to safety concerns and comfort."
+                  },
+                  {
+                    "question": "What is the role of the host in a Dandiya event?",
+                    "options": ["To dance only", "To manage the event", "To perform solo", "To ignore others"],
+                    "answer": "To manage the event",
+                    "explanation": "The host manages the event, ensuring everything runs smoothly and everyone participates."
+                  },
+                  {
+                    "question": "What does the Dandiya stick represent in the dance?",
+                    "options": ["A weapon", "An offering", "Unity and strength", "A trophy"],
+                    "answer": "Unity and strength",
+                    "explanation": "The Dandiya stick represents unity and strength, symbolizing togetherness among participants."
+                  },
+                  {
+                    "question": "What is the significance of the colors worn during Dandiya?",
+                    "options": ["To confuse others", "To express individuality", "To represent joy and celebration", "To show off wealth"],
+                    "answer": "To represent joy and celebration",
+                    "explanation": "The colors worn during Dandiya represent joy and celebration, contributing to the festive mood."
+                  },
+                  {
+                    "question": "How do Dandiya participants prepare before the event?",
+                    "options": ["They rest", "They practice the dance", "They eat", "They watch TV"],
+                    "answer": "They practice the dance",
+                    "explanation": "Participants often practice the dance before the event to enhance their performance."
+                  },
+                  {
+                    "question": "What do participants often do after the Dandiya event?",
+                    "options": ["Leave immediately", "Have dinner together", "Exchange contact information", "Post on social media"],
+                    "answer": "Have dinner together",
+                    "explanation": "Participants often have dinner together after the Dandiya event to celebrate and bond."
+                  }
+                ]
+              },
+              {
+    "setNumber": 6,
+    "questions": [
+      {
+        "question": "Which popular Bollywood song is often associated with Dandiya?",
+        "options": ["Chura Liya Hai Tumne Jo Dil Ko", "Mere Rashke Qamar", "Dola Re Dola", "Tum Hi Ho"],
+        "answer": "Dola Re Dola",
+        "explanation": "Dola Re Dola is a popular Bollywood song often played during Dandiya celebrations."
+      },
+      {
+        "question": "What is the traditional attire for women during Dandiya?",
+        "options": ["Lehenga and choli", "Saree", "Jeans and T-shirt", "Salwar kameez"],
+        "answer": "Lehenga and choli",
+        "explanation": "Women traditionally wear lehenga and choli during Dandiya, reflecting cultural significance."
+      },
+      {
+        "question": "What type of lighting is commonly used during Dandiya events?",
+        "options": ["Candlelight", "Dim lights", "Bright colorful lights", "No lighting"],
+        "answer": "Bright colorful lights",
+        "explanation": "Bright colorful lights are commonly used during Dandiya events, enhancing the festive atmosphere."
+      },
+      {
+        "question": "What is the primary purpose of Dandiya celebrations?",
+        "options": ["To show off dancing skills", "To celebrate culture and community", "To compete with others", "To showcase fashion"],
+        "answer": "To celebrate culture and community",
+        "explanation": "The primary purpose of Dandiya celebrations is to celebrate culture and community."
+      },
+      {
+        "question": "What is often the starting activity at Dandiya events?",
+        "options": ["Formal speeches", "Group prayers", "Dance performances", "Food serving"],
+        "answer": "Group prayers",
+        "explanation": "Group prayers are often conducted at the beginning of Dandiya events to seek blessings."
+      },
+      {
+        "question": "What do dancers often do to engage the audience during Dandiya?",
+        "options": ["Ignore them", "Invite them to dance", "Perform solo", "Talk to them"],
+        "answer": "Invite them to dance",
+        "explanation": "Dancers often invite the audience to join in the dance, fostering inclusivity."
+      },
+      {
+        "question": "How long do Dandiya nights typically last?",
+        "options": ["1-2 hours", "3-4 hours", "5-6 hours", "All night long"],
+        "answer": "3-4 hours",
+        "explanation": "Dandiya nights typically last for 3-4 hours, filled with continuous dancing."
+      },
+      {
+        "question": "What is a popular snack served during Dandiya events?",
+        "options": ["Pakora", "Chaat", "Ice cream", "Brownies"],
+        "answer": "Pakora",
+        "explanation": "Pakora is a popular snack served during Dandiya events, enjoyed by many participants."
+      },
+      {
+        "question": "Which dance form is commonly practiced alongside Dandiya?",
+        "options": ["Kathakali", "Odissi", "Bharatanatyam", "Garba"],
+        "answer": "Garba",
+        "explanation": "Garba is commonly practiced alongside Dandiya, particularly during Navratri."
+      },
+      {
+        "question": "What is a common way to conclude a Dandiya night?",
+        "options": ["With silence", "With a big feast", "With a dance-off", "With a final prayer"],
+        "answer": "With a final prayer",
+        "explanation": "A common way to conclude a Dandiya night is with a final prayer to thank the divine."
+      }
+    ]
+  },
+  {
+    "setNumber": 7,
+    "questions": [
+      {
+        "question": "What do participants often use to enhance their Dandiya experience?",
+        "options": ["Camera", "Glow sticks", "Drinks", "Food"],
+        "answer": "Glow sticks",
+        "explanation": "Participants often use glow sticks to enhance their Dandiya experience, adding to the festive look."
+      },
+      {
+        "question": "Which festival is closely related to Dandiya?",
+        "options": ["Makar Sankranti", "Diwali", "Navratri", "Holi"],
+        "answer": "Navratri",
+        "explanation": "Dandiya is closely related to Navratri, celebrated during this nine-night festival."
+      },
+      {
+        "question": "What type of fabric is commonly used for Dandiya attire?",
+        "options": ["Cotton", "Silk", "Denim", "Wool"],
+        "answer": "Silk",
+        "explanation": "Silk is commonly used for Dandiya attire, known for its rich texture and cultural significance."
+      },
+      {
+        "question": "What is the primary function of the Dandiya stick?",
+        "options": ["To hit others", "To keep rhythm", "To show off", "To distract others"],
+        "answer": "To keep rhythm",
+        "explanation": "The primary function of the Dandiya stick is to keep rhythm while dancing."
+      },
+      {
+        "question": "How do Dandiya participants typically choose their dance partners?",
+        "options": ["Randomly", "By age", "By skill level", "They don’t choose, it’s free for all"],
+        "answer": "Randomly",
+        "explanation": "Participants typically choose their dance partners randomly, fostering spontaneity."
+      },
+      {
+        "question": "What is a common theme in Dandiya dance choreography?",
+        "options": ["Sadness", "Joy and celebration", "Competition", "Silence"],
+        "answer": "Joy and celebration",
+        "explanation": "Joy and celebration are common themes in Dandiya dance choreography, reflecting the festival spirit."
+      },
+      {
+        "question": "What traditional sweet is often prepared during Dandiya?",
+        "options": ["Gulab Jamun", "Rasgulla", "Jalebi", "Barfi"],
+        "answer": "Gulab Jamun",
+        "explanation": "Gulab Jamun is a traditional sweet often prepared during Dandiya, enjoyed by many."
+      },
+      {
+        "question": "What type of energy do Dandiya dances require?",
+        "options": ["Low energy", "High energy", "Relaxed energy", "Calm energy"],
+        "answer": "High energy",
+        "explanation": "Dandiya dances require high energy, as participants move energetically throughout the night."
+      },
+      {
+        "question": "What do Dandiya participants often do before the event begins?",
+        "options": ["Dance alone", "Practice together", "Eat snacks", "Socialize"],
+        "answer": "Practice together",
+        "explanation": "Participants often practice together before the event to synchronize their movements."
+      },
+      {
+        "question": "What is a common dance formation used in Dandiya?",
+        "options": ["Circle formation", "Line formation", "Square formation", "Free style"],
+        "answer": "Circle formation",
+        "explanation": "A common dance formation used in Dandiya is the circle formation, encouraging community involvement."
+      }
+    ]
+  },
+  {
+    "setNumber": 8,
+    "questions": [
+      {
+        "question": "What is the significance of wearing traditional attire during Dandiya?",
+        "options": ["To show off wealth", "To connect with heritage", "To impress others", "To follow trends"],
+        "answer": "To connect with heritage",
+        "explanation": "Wearing traditional attire during Dandiya helps participants connect with their heritage."
+      },
+      {
+        "question": "How do Dandiya participants typically signal the start of a dance?",
+        "options": ["By clapping", "By shouting", "By playing a drum", "By waving hands"],
+        "answer": "By clapping",
+        "explanation": "Participants typically signal the start of a dance by clapping, creating rhythm."
+      },
+      {
+        "question": "What type of music is commonly played during Dandiya?",
+        "options": ["Classical music", "Folk music", "Rock music", "Jazz"],
+        "answer": "Folk music",
+        "explanation": "Folk music is commonly played during Dandiya, adding to the festive atmosphere."
+      },
+      {
+        "question": "What is a popular drink served during Dandiya events?",
+        "options": ["Lassi", "Soda", "Coffee", "Tea"],
+        "answer": "Lassi",
+        "explanation": "Lassi is a popular drink served during Dandiya events, refreshing participants."
+      },
+      {
+        "question": "What do dancers often do to energize the crowd during Dandiya?",
+        "options": ["Ignore them", "Shout at them", "Encourage them to dance", "Tell jokes"],
+        "answer": "Encourage them to dance",
+        "explanation": "Dancers often encourage the crowd to join in, energizing the overall atmosphere."
+      },
+      {
+        "question": "What is the main focus of Dandiya celebrations?",
+        "options": ["Food", "Dance and music", "Fashion", "Competitions"],
+        "answer": "Dance and music",
+        "explanation": "The main focus of Dandiya celebrations is dance and music, uniting participants."
+      },
+      {
+        "question": "What is often the last activity of a Dandiya night?",
+        "options": ["Eating", "Farewell speeches", "Performing a final dance", "Prayers"],
+        "answer": "Prayers",
+        "explanation": "Prayers are often performed at the end of a Dandiya night, expressing gratitude."
+      },
+      {
+        "question": "What is a common tradition related to food during Dandiya?",
+        "options": ["Potluck dinner", "Only sweets", "Sharing meals", "No food allowed"],
+        "answer": "Sharing meals",
+        "explanation": "Sharing meals is a common tradition during Dandiya, enhancing community bonds."
+      },
+      {
+        "question": "How do people often prepare for Dandiya nights?",
+        "options": ["By eating a heavy meal", "By practicing dances", "By relaxing", "By shopping"],
+        "answer": "By practicing dances",
+        "explanation": "People often prepare for Dandiya nights by practicing dances to improve their skills."
+      },
+      {
+        "question": "What type of footwear is commonly worn during Dandiya?",
+        "options": ["Sandals", "Heels", "Flats", "Traditional shoes"],
+        "answer": "Traditional shoes",
+        "explanation": "Traditional shoes are commonly worn during Dandiya, adding to the cultural experience."
+      }
+    ]
+  },
+  {
+    "setNumber": 9,
+    "questions": [
+      {
+        "question": "What does the word 'Dandiya' mean?",
+        "options": ["Stick", "Dance", "Festival", "Music"],
+        "answer": "Stick",
+        "explanation": "The word 'Dandiya' means 'stick' in Gujarati, referring to the sticks used in the dance."
+      },
+      {
+        "question": "During which month is Dandiya traditionally celebrated?",
+        "options": ["January", "March", "September", "October"],
+        "answer": "October",
+        "explanation": "Dandiya is traditionally celebrated during the month of October, coinciding with Navratri."
+      },
+      {
+        "question": "Which deity is often worshipped during Dandiya celebrations?",
+        "options": ["Lord Krishna", "Lord Shiva", "Durga Mata", "Hanuman"],
+        "answer": "Durga Mata",
+        "explanation": "Durga Mata is often worshipped during Dandiya celebrations as a form of honoring the goddess."
+      },
+      {
+        "question": "What type of shoes do dancers often wear during Dandiya?",
+        "options": ["Ballet shoes", "High heels", "Traditional juttis", "Flip flops"],
+        "answer": "Traditional juttis",
+        "explanation": "Traditional juttis are often worn during Dandiya to complement the cultural attire."
+      },
+      {
+        "question": "What is a common theme for Dandiya events?",
+        "options": ["Social gathering", "Dance competition", "Fashion show", "Religious event"],
+        "answer": "Social gathering",
+        "explanation": "Dandiya events are often themed as social gatherings, promoting community interaction."
+      },
+      {
+        "question": "What is often the mood of a Dandiya event?",
+        "options": ["Serious", "Joyful", "Melancholic", "Formal"],
+        "answer": "Joyful",
+        "explanation": "The mood of a Dandiya event is typically joyful, celebrating life and culture."
+      },
+      {
+        "question": "Which musical instrument is commonly played during Dandiya?",
+        "options": ["Guitar", "Tabla", "Flute", "Piano"],
+        "answer": "Tabla",
+        "explanation": "The tabla is commonly played during Dandiya, providing a rhythmic foundation."
+      },
+      {
+        "question": "What is the relationship between Garba and Dandiya?",
+        "options": ["They are different", "One is a type of the other", "They are performed together", "They have the same music"],
+        "answer": "They are performed together",
+        "explanation": "Garba and Dandiya are often performed together during Navratri, complementing each other."
+      },
+      {
+        "question": "What kind of decorations are common at Dandiya venues?",
+        "options": ["Simple lighting", "Minimal decorations", "Colorful lights and flowers", "Only balloons"],
+        "answer": "Colorful lights and flowers",
+        "explanation": "Dandiya venues are often decorated with colorful lights and flowers to enhance the festive atmosphere."
+      },
+      {
+        "question": "What type of energy is typically seen during Dandiya dance?",
+        "options": ["Low energy", "Moderate energy", "Vibrant energy", "Exhausted energy"],
+        "answer": "Vibrant energy",
+        "explanation": "Dandiya dance is characterized by vibrant energy, with participants fully engaged."
+      }
+    ]
+  },
+  {
+    "setNumber": 10,
+    "questions": [
+      {
+        "question": "What is the usual duration of Dandiya events?",
+        "options": ["1 hour", "2-3 hours", "5 hours", "All night"],
+        "answer": "2-3 hours",
+        "explanation": "Dandiya events usually last for 2-3 hours, with continuous dancing."
+      },
+      {
+        "question": "What is a traditional dish often served during Dandiya nights?",
+        "options": ["Biryani", "Pasta", "Dhokla", "Pizza"],
+        "answer": "Dhokla",
+        "explanation": "Dhokla is a traditional dish served during Dandiya nights, loved for its taste."
+      },
+      {
+        "question": "Which group typically organizes Dandiya events?",
+        "options": ["Families", "Schools", "Cultural organizations", "Corporates"],
+        "answer": "Cultural organizations",
+        "explanation": "Cultural organizations typically organize Dandiya events to promote community engagement."
+      },
+      {
+        "question": "What is a common source of light at Dandiya celebrations?",
+        "options": ["Neon lights", "Candlelight", "Fairy lights", "Flashlights"],
+        "answer": "Fairy lights",
+        "explanation": "Fairy lights are commonly used at Dandiya celebrations to create a magical atmosphere."
+      },
+      {
+        "question": "What is a major benefit of participating in Dandiya?",
+        "options": ["Learning new languages", "Physical fitness", "Competing with others", "Fashion exposure"],
+        "answer": "Physical fitness",
+        "explanation": "Participating in Dandiya provides a fun way to improve physical fitness through dance."
+      },
+      {
+        "question": "Which region of India is Dandiya primarily associated with?",
+        "options": ["Punjab", "Gujarat", "Maharashtra", "Bengal"],
+        "answer": "Gujarat",
+        "explanation": "Dandiya is primarily associated with Gujarat, where it is a significant cultural tradition."
+      },
+      {
+        "question": "What do participants do at the end of a Dandiya night?",
+        "options": ["Leave quickly", "Pray and thank the deities", "Compete in final dances", "Have a feast"],
+        "answer": "Pray and thank the deities",
+        "explanation": "At the end of a Dandiya night, participants often pray and thank the deities for their blessings."
+      },
+      {
+        "question": "What is a popular way to invite friends to a Dandiya event?",
+        "options": ["Social media", "Posters", "Word of mouth", "Television ads"],
+        "answer": "Social media",
+        "explanation": "Social media is a popular way to invite friends to Dandiya events, making it easier to spread the word."
+      },
+      {
+        "question": "What type of music enhances the atmosphere at Dandiya events?",
+        "options": ["Rock", "Classical", "Folk", "Pop"],
+        "answer": "Folk",
+        "explanation": "Folk music enhances the atmosphere at Dandiya events, creating a lively environment."
+      },
+      {
+        "question": "Which age group participates the most in Dandiya celebrations?",
+        "options": ["Children", "Teenagers and adults", "Elderly", "Only women"],
+        "answer": "Teenagers and adults",
+        "explanation": "Teenagers and adults participate the most in Dandiya celebrations, enjoying the dance and community spirit."
+      }
+    ]
+  }
+  
+  
             ]
           }
         ]
@@ -1058,7 +2125,10 @@
                 "description": [
                   "Kathakali originated in the 17th century in Kerala",
                   " drawing from the ancient traditions of dance and theater.",
-                  " It evolved from earlier forms of performing arts and is influenced by Hindu epics like the Mahabharata and Ramayana."
+                  " It evolved from earlier forms of performing arts and is influenced by Hindu epics like the Mahabharata and Ramayana.",
+                  "Kathakali has its roots in temple rituals and classical Sanskrit drama. It is believed to have evolved from older dance-drama forms like Koodiyattam and Ramanattam, both of which were performed in the temple precincts of Kerala. ",
+                  "Kathakali is unique in its combination of dance, acting, music, and costumes to create a highly visual form of storytelling. ",
+                  "The performance style emphasizes facial expressions (rasas) and hand gestures (mudras) to convey emotions and narrate the plot, since dialogues are rare and the focus is on non-verbal communication."
                 ]
                 
                 ,
@@ -1074,7 +2144,7 @@
                           "Tamil Nadu",
                           "Karnataka"
                         ],
-                        "correctAnswer": "Kerala",
+                        "answer": "Kerala",
                         "explanation": "Kathakali originated in Kerala in the 17th century."
                       },
                       {
@@ -1085,7 +2155,7 @@
                           "Hindu epics",
                           "Folk stories"
                         ],
-                        "correctAnswer": "Hindu epics",
+                        "answer": "Hindu epics",
                         "explanation": "Kathakali performances often depict stories from Hindu epics like the Mahabharata and Ramayana."
                       },
                       {
@@ -1096,7 +2166,7 @@
                           "To enhance dance movements",
                           "To protect the skin"
                         ],
-                        "correctAnswer": "To indicate character traits",
+                        "answer": "To indicate character traits",
                         "explanation": "The makeup in Kathakali serves to indicate the character's nature, using specific colors and designs."
                       },
                       {
@@ -1107,7 +2177,7 @@
                           "Chenda",
                           "Tabla"
                         ],
-                        "correctAnswer": "Chenda",
+                        "answer": "Chenda",
                         "explanation": "The chenda, a type of drum, is a prominent instrument in Kathakali music."
                       },
                       {
@@ -1118,7 +2188,7 @@
                           "Hand gestures",
                           "Costume design"
                         ],
-                        "correctAnswer": "Facial expressions",
+                        "answer": "Facial expressions",
                         "explanation": "'Abhinaya' refers to the expressive aspect of Kathakali, encompassing facial expressions and emotions."
                       },
                       {
@@ -1129,7 +2199,7 @@
                           "They are purely decorative",
                           "They help with physical fitness"
                         ],
-                        "correctAnswer": "They tell the story",
+                        "answer": "They tell the story",
                         "explanation": "The expressive gestures in Kathakali play a crucial role in narrating the story and conveying emotions."
                       },
                       {
@@ -1140,7 +2210,7 @@
                           "Minimalist staging",
                           "Simple costumes"
                         ],
-                        "correctAnswer": "Background music",
+                        "answer": "Background music",
                         "explanation": "Background music is essential in Kathakali, providing rhythm and enhancing the dramatic effect."
                       },
                       {
@@ -1151,7 +2221,7 @@
                           "Sadness",
                           "Eccentricity"
                         ],
-                        "correctAnswer": "Divinity or nobility",
+                        "answer": "Divinity or nobility",
                         "explanation": "Green makeup in Kathakali typically represents divine or noble characters."
                       },
                       {
@@ -1162,7 +2232,7 @@
                           "Eid",
                           "Christmas"
                         ],
-                        "correctAnswer": "Onam",
+                        "answer": "Onam",
                         "explanation": "Kathakali performances are commonly held during the Onam festival in Kerala."
                       },
                       {
@@ -1173,7 +2243,7 @@
                           "It does not use facial expressions",
                           "It has no fixed themes"
                         ],
-                        "correctAnswer": "It combines dance, music, and drama",
+                        "answer": "It combines dance, music, and drama",
                         "explanation": "Kathakali uniquely integrates dance, music, and drama, making it distinct from other classical dance forms."
                       }
                     ]
@@ -1186,7 +2256,10 @@
                   " The dance form has a rich history that dates back to the 16th century and has evolved through various influences", 
                   "including the Bhakti movement. The revival of Mohiniyattam in the 20th century" ,
                   "particularly by the legendary dancer Kalamandalam Kalyanikutty Amma", 
-                  "played a significant role in its popularity today."
+                  "played a significant role in its popularity today.",
+                  "In the early 20th century, Mohiniyattam was revived and redefined as a classical dance form, largely due to the efforts of key individuals like Maharaja Swathi Thirunal and Kalyani Amma, a famous Mohiniyattam dancer. ",
+                  "Mohiniyattam performances are usually based on Hindu mythology and folklore, often focusing on themes of love and devotion. The central characters of Mohiniyattam are often goddesses, heroines, or celestial beings who embody the divine feminine. Stories from the Mahabharata, Ramayana, and the Bhagavata Purana are commonly depicted.",
+                  "Mohiniyattam is known for its soft, undulating movements, and it emphasizes grace and fluidity. The dance is often described as sensuous but not erotic, balancing femininity with devotion."
                 ],
                 "questionSets": [
                   {
@@ -1200,7 +2273,7 @@
                           "Tamil Nadu",
                           "Karnataka"
                         ],
-                        "correctAnswer": "Kerala",
+                        "answer": "Kerala",
                         "explanation": "Kathakali originated in Kerala in the 17th century."
                       },
                       {
@@ -1211,7 +2284,7 @@
                           "Hindu epics",
                           "Folk stories"
                         ],
-                        "correctAnswer": "Hindu epics",
+                        "answer": "Hindu epics",
                         "explanation": "Kathakali performances often depict stories from Hindu epics like the Mahabharata and Ramayana."
                       },
                       {
@@ -1222,7 +2295,7 @@
                           "To enhance dance movements",
                           "To protect the skin"
                         ],
-                        "correctAnswer": "To indicate character traits",
+                        "answer": "To indicate character traits",
                         "explanation": "The makeup in Kathakali serves to indicate the character's nature, using specific colors and designs."
                       },
                       {
@@ -1233,7 +2306,7 @@
                           "Chenda",
                           "Tabla"
                         ],
-                        "correctAnswer": "Chenda",
+                        "answer": "Chenda",
                         "explanation": "The chenda, a type of drum, is a prominent instrument in Kathakali music."
                       },
                       {
@@ -1244,37 +2317,37 @@
                           "Hand gestures",
                           "Costume design"
                         ],
-                        "correctAnswer": "Facial expressions",
+                        "answer": "Facial expressions",
                         "explanation": "'Abhinaya' refers to the expressive aspect of Kathakali, encompassing facial expressions and emotions."
                       },
                       {
                         "question": "What does the term 'Mohiniyattam' mean?",
                         "options": ["Dance of the Enchantress", "Dance of Joy", "Dance of Love", "Dance of Warriors"],
-                        "correctAnswer": "Dance of the Enchantress",
+                        "answer": "Dance of the Enchantress",
                         "explanation": "The term 'Mohiniyattam' translates to 'dance of the enchantress', reflecting its themes of femininity and grace."
                     },
                     {
                         "question": "Which state in India is Mohiniyattam associated with?",
                         "options": ["Tamil Nadu", "Kerala", "Karnataka", "Andhra Pradesh"],
-                        "correctAnswer": "Kerala",
+                        "answer": "Kerala",
                         "explanation": "Mohiniyattam is a classical dance form that originates from Kerala."
                     },
                     {
                         "question": "What type of attire is typically worn in Mohiniyattam?",
                         "options": ["Lehenga", "Sari", "Kurta", "Gown"],
-                        "correctAnswer": "Sari",
+                        "answer": "Sari",
                         "explanation": "Dancers wear a white and gold sari, draped in a unique style that enhances their movements."
                     },
                     {
                         "question": "Who is known for reviving Mohiniyattam in the 20th century?",
                         "options": ["Rukmini Devi Arundale", "Kalamandalam Kalyanikutty Amma", "Birju Maharaj", "Ustad Bismillah Khan"],
-                        "correctAnswer": "Kalamandalam Kalyanikutty Amma",
+                        "answer": "Kalamandalam Kalyanikutty Amma",
                         "explanation": "Kalamandalam Kalyanikutty Amma played a significant role in the revival and popularization of Mohiniyattam."
                     },
                     {
                         "question": "What is the primary focus of Mohiniyattam dance movements?",
                         "options": ["Speed and agility", "Grace and fluidity", "Strength and power", "Complex footwork"],
-                        "correctAnswer": "Grace and fluidity",
+                        "answer": "Grace and fluidity",
                         "explanation": "Mohiniyattam is characterized by soft, graceful, and fluid movements that evoke feminine charm."
                     }
                     ]
@@ -1291,7 +2364,10 @@
             "description": [
              " Padhant, often referred to in the context of Indian classical dance",
              " particularly Kathak, encompasses the rhythmic recitation of dance syllables or bols Here’s a detailed explanation of Padhant",
-             " its significance, and its application in Kathak and other classical dance forms:"
+             " its significance, and its application in Kathak and other classical dance forms:",
+             "Kathak, originating from northern India, is a storytelling dance form with roots in temple rituals where the stories of Hindu gods and goddesses were narrated",
+             " Over time, Kathak evolved from its devotional origins to become a court dance under the patronage of the Mughal emperors, where it incorporated more intricate rhythmic patterns and flourished as a classical art form.",
+             "The dancer performs the Padhant themselves, reciting the rhythmic syllables before executing the corresponding steps. This is often done with a loud, clear voice, and the dancer ensures that the bols match the choreography exactly."
             ]
             ,
             "questionSets": [
@@ -1300,62 +2376,72 @@
                 "questions": [
                   {
                     "question": "What does Padhant refer to in Indian classical dance?",
-                    "options": ["Rhythmic recitation of dance syllables", "A type of costume", "A dance style", "A musical instrument"],
-                    "correctAnswer": "Rhythmic recitation of dance syllables",
+                    "options": ["Rhythmic recitation of dance syllables",
+                     "A type of costume",
+                      "A dance style", "A musical instrument"],
+                    "answer": "Rhythmic recitation of dance syllables",
                     "explanation": "Padhant is the rhythmic articulation of dance syllables (bols) used in Indian classical dance."
                   },
                   {
                     "question": "Which of the following is a common bol used in Padhant?",
                     "options": ["Ta", "Do", "Mi", "Re"],
-                    "correctAnswer": "Ta",
+                    "answer": "Ta",
                     "explanation": "The bol 'Ta' is commonly used in various Indian classical dance forms, including Kathak."
                   },
                   {
                     "question": "What is the primary purpose of Padhant in dance training?",
-                    "options": ["To improve costume design", "To develop a sense of rhythm", "To learn musical notes", "To memorize dance steps"],
-                    "correctAnswer": "To develop a sense of rhythm",
+                    "options": ["To improve costume design", "To develop a sense of rhythm",
+                     "To learn musical notes", "To memorize dance steps"],
+                    "answer": "To develop a sense of rhythm",
                     "explanation": "Padhant helps dancers internalize rhythms and improve their timing and coordination."
                   },
                   {
                     "question": "In Kathak, what does the term 'bol' represent?",
-                    "options": ["A type of beat", "A rhythmic syllable", "A dance move", "A musical instrument"],
-                    "correctAnswer": "A rhythmic syllable",
+                    "options": ["A type of beat", "A rhythmic syllable",
+                     "A dance move", "A musical instrument"],
+                    "answer": "A rhythmic syllable",
                     "explanation": "In Kathak, a 'bol' refers to a rhythmic syllable that corresponds to specific dance movements."
                   },
                   {
                     "question": "What role does Padhant play in choreography?",
-                    "options": ["Helps memorize sequences", "Designs costumes", "Improves musical composition", "None of the above"],
-                    "correctAnswer": "Helps memorize sequences",
+                    "options": ["Helps memorize sequences", "Designs costumes", "Improves musical composition",
+                     "None of the above"],
+                    "answer": "Helps memorize sequences",
                     "explanation": "Padhant serves as a guide for dancers to memorize intricate dance sequences in choreography."
                   },
                   {
                     "question": "Which tala is commonly used in Padhant training?",
                     "options": ["Dhrupad", "Teentaal", "Sargam", "Alankar"],
-                    "correctAnswer": "Teentaal",
+                    "answer": "Teentaal",
                     "explanation": "Teentaal is a popular tala that is often used in Padhant training for its rhythmic complexity."
                   },
                   {
                     "question": "How does Padhant contribute to improvisation in dance?",
-                    "options": ["By providing fixed movements", "By enhancing spontaneous creativity", "By reducing dance complexity", "By limiting expression"],
-                    "correctAnswer": "By enhancing spontaneous creativity",
+                    "options": ["By providing fixed movements", "By enhancing spontaneous creativity",
+                     "By reducing dance complexity", "By limiting expression"],
+                    "answer": "By enhancing spontaneous creativity",
                     "explanation": "Padhant allows experienced dancers to explore spontaneous rhythms and movements during improvisation."
                   },
                   {
                     "question": "What does the speed of Padhant recitation affect in performance?",
-                    "options": ["The costume design", "The complexity of footwork", "The lighting", "The audience's reaction"],
-                    "correctAnswer": "The complexity of footwork",
+                    "options": ["The costume design", "The complexity of footwork",
+                     "The lighting", "The audience's reaction"],
+                    "answer": "The complexity of footwork",
                     "explanation": "The speed of Padhant recitation can influence the complexity and execution of footwork in a performance."
                   },
                   {
                     "question": "Which dance form, besides Kathak, also utilizes Padhant?",
                     "options": ["Bharatanatyam", "Bollywood", "Folk dance", "Hip hop"],
-                    "correctAnswer": "Bharatanatyam",
+                    "answer": "Bharatanatyam",
                     "explanation": "Padhant is utilized in various Indian classical dance forms, including Bharatanatyam and Odissi."
                   },
                   {
                     "question": "Why is Padhant considered culturally significant?",
-                    "options": ["It focuses solely on costumes", "It connects music and dance", "It excludes audience interaction", "It is only for training purposes"],
-                    "correctAnswer": "It connects music and dance",
+                    "options": ["It focuses solely on costumes",
+                     "It connects music and dance",
+                      "It excludes audience interaction",
+                       "It is only for training purposes"],
+                    "answer": "It connects music and dance",
                     "explanation": "Padhant embodies the essence of dance, linking the dancer's movements to the music and engaging the audience."
                   }
                 ]
@@ -1365,62 +2451,69 @@
                 "questions": [
                   {
                     "question": "What is the relationship between Padhant and Tala?",
-                    "options": ["Padhant does not involve Tala", "Padhant is the same as Tala", "Padhant is recited in accordance with Tala", "Padhant is a type of Tala"],
-                    "correctAnswer": "Padhant is recited in accordance with Tala",
+                    "options": ["Padhant does not involve Tala",
+                     "Padhant is the same as Tala", "Padhant is recited in accordance with Tala",
+                      "Padhant is a type of Tala"],
+                    "answer": "Padhant is recited in accordance with Tala",
                     "explanation": "Padhant involves the rhythmic recitation of syllables that align with the tala used in the performance."
                   },
                   {
                     "question": "In which aspect of dance does Padhant play a critical role?",
-                    "options": ["Costume design", "Rhythmic precision", "Musical composition", "Stage lighting"],
-                    "correctAnswer": "Rhythmic precision",
+                    "options": ["Costume design", "Rhythmic precision",
+                     "Musical composition", "Stage lighting"],
+                    "answer": "Rhythmic precision",
                     "explanation": "Padhant enhances the dancer's rhythmic precision, allowing them to synchronize their movements with the music."
                   },
                   {
                     "question": "Which of the following best describes the process of learning Padhant?",
-                    "options": ["Only theoretical knowledge", "Repetitive drills with movement", "Independent improvisation", "Costume experimentation"],
-                    "correctAnswer": "Repetitive drills with movement",
+                    "options": ["Only theoretical knowledge",
+                     "Repetitive drills with movement", 
+                     "Independent improvisation", "Costume experimentation"],
+                    "answer": "Repetitive drills with movement",
                     "explanation": "Dancers practice Padhant through repetitive drills, reciting bols while performing corresponding movements."
                   },
                   {
                     "question": "What can the tone and speed of Padhant recitation reflect?",
-                    "options": ["The dancer's costume", "The mood of the performance", "The audience's age", "The dance floor size"],
-                    "correctAnswer": "The mood of the performance",
+                    "options": ["The dancer's costume",
+                     "The mood of the performance",
+                      "The audience's age", "The dance floor size"],
+                    "answer": "The mood of the performance",
                     "explanation": "The tone and speed of Padhant recitation can convey the emotions and narrative of the performance."
                   },
                   {
                     "question": "What does practicing Padhant enhance in dancers?",
                     "options": ["Their height", "Muscle memory and coordination", "Flexibility", "Breathing techniques"],
-                    "correctAnswer": "Muscle memory and coordination",
+                    "answer": "Muscle memory and coordination",
                     "explanation": "Regular practice of Padhant enhances muscle memory and coordination, crucial for executing dance movements."
                   },
                   {
                     "question": "Which of the following is a benefit of using Padhant in dance?",
                     "options": ["Excludes musical elements", "Improves focus and memory", "Limits creativity", "Simplifies dance styles"],
-                    "correctAnswer": "Improves focus and memory",
+                    "answer": "Improves focus and memory",
                     "explanation": "Using Padhant helps dancers improve their focus and memory, essential for mastering complex routines."
                   },
                   {
                     "question": "What is one of the main features of Padhant in Kathak?",
                     "options": ["Fixed choreography only", "Improvisation techniques", "Non-rhythmic movements", "Focus on solo performances"],
-                    "correctAnswer": "Improvisation techniques",
+                    "answer": "Improvisation techniques",
                     "explanation": "Padhant in Kathak includes improvisation techniques, allowing dancers to explore rhythms creatively."
                   },
                   {
                     "question": "What kind of movements does Padhant help a dancer coordinate?",
                     "options": ["Non-dance movements", "Costume adjustments", "Rhythmic dance movements", "Only hand movements"],
-                    "correctAnswer": "Rhythmic dance movements",
+                    "answer": "Rhythmic dance movements",
                     "explanation": "Padhant aids in coordinating rhythmic dance movements, enhancing overall performance."
                   },
                   {
                     "question": "In which context can Padhant be used?",
                     "options": ["Solo performances only", "Group practices only", "Both solo and group performances", "Only during rehearsals"],
-                    "correctAnswer": "Both solo and group performances",
+                    "answer": "Both solo and group performances",
                     "explanation": "Padhant can be utilized in both solo and group performances, enhancing the overall rhythmic structure."
                   },
                   {
                     "question": "What does the term 'Gharana' refer to in the context of Padhant?",
                     "options": ["A type of costume", "A style of teaching and performing", "A musical genre", "A specific dance movement"],
-                    "correctAnswer": "A style of teaching and performing",
+                    "answer": "A style of teaching and performing",
                     "explanation": "In the context of Indian classical dance, 'Gharana' refers to a particular style of teaching and performing that may influence Padhant."
                   }              ]
               }                            
