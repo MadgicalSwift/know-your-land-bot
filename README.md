@@ -18,7 +18,7 @@ Click the "Fork" button in the upper right corner of the repository page. This w
 
 * Clone this repository:
 ```
-https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate.git
+https://github.com/MadgicalSwift/dance-form-bot.git
 ```
 * Navigate to the Project Directory:
 ```
@@ -115,5 +115,5 @@ src/
 ```
 
 # Link
-* [Documentation](https://app.clickup.com/43312857/v/dc/199tpt-7824/199tpt-19527)
+* [Documentation]https://app.clickup.com/43312857/v/dc/199tpt-9236
 

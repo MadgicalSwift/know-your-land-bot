@@ -3,7 +3,7 @@ export const localised = {
   language_hindi: 'हिन्दी',
   language_english: 'English',
   language_changed: 'Language changed to English',
-  welcomeMessage: "😊**The bot greets the user and invites them to explore various dance forms of India based on states.!",
+  welcomeMessage: "😊Welcome to the Dance Form Bot! 🎉 Learn about the diverse dance forms of India according to different states. Ready to explore? Let’s dive into the rhythm of India!",
   validText: ['hi', 'Hi', 'HI', 'hI', 'Hello', 'hello', 'hola'],
   selectSubtopic: (topicName: string) =>
   `📜 Please select a topic for **${topicName}**:`,
@@ -23,8 +23,8 @@ export const localised = {
   `🌟 Fantastic! You got it 👍right!\nCheck this out: **${explanation}**`,
   wrongAnswer: (correctAnswer: string, explanation: string) =>
  `👎Not quite right, but you’re learning! 💪\nThe correct answer is: **${correctAnswer}**\nHere’s the explanation: **${explanation}**`,
-  score: (score: number, totalQuestions: number, badge:string) =>
-  `🌟 Great job! Your score is **${score}** out of **${totalQuestions}**.\n\n💪 Congratulations! You earned ${badge} badge! `,
+  score: (score: number, totalQuestions: number,  badge:string) =>
+  `🌟 Wow! You did an awesome job. **${score}** out of **${totalQuestions}**.\n\n💪 Congratulations! You earned ${ badge} badge! `,
    
   
 };

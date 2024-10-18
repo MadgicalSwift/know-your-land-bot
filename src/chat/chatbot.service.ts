@@ -176,7 +176,7 @@ export class ChatbotService {
           } else if (user.score >= 5) {
             badge = 'Bronze 🥉';
           } else {
-            badge = 'No';
+            badge =  'Novice 🔰';
           }
 
           // Store the data to be stored in database
@@ -199,13 +199,14 @@ export class ChatbotService {
           );
           console.log("Challenge Data:",challengeData)
           // console.log("user:", user )
-          
-          await this.message.sendScore(
-            from,
-            user.score,
-            user.questionsAnswered,
-            badge
-          );
+          await this.message.newscorecard(from,user.score,user.questionsAnswered,badge)
+          // await this.message.sendScore(
+            
+          //   user.score,
+          //   user.questionsAnswered,
+           
+          //   payload
+          // );
 
           return 'ok';
         }
@@ -280,10 +281,12 @@ export class ChatbotService {
         console.log("user data -",userData)
         if(userData.name==null){
           await this.message.sendWelcomeMessage(from, user.language);
+          
           await this.message.sendName(from);
         }
         else{
           await this.message.sendWelcomeMessage(from, user.language);
+          
           await this.message.sendInitialTopics(from);
         }
       }
@@ -329,7 +332,7 @@ export class ChatbotService {
         } else if (totalScore >= 5) {
           badge = 'Bronze 🥉';
         } else {
-          badge = 'No';
+          badge =  'Novice 🔰';
         }
 
         message += `${index + 1}. ${studentName}\n`;

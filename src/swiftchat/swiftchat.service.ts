@@ -4,6 +4,7 @@ import { LocalizationService } from 'src/localization/localization.service';
 import { MessageService } from 'src/message/message.service';
 import { localised } from 'src/i18n/en/localised-strings';
 import data from '../datasource/data.json';
+import axios from 'axios';
 import {
   createMainTopicButtons,
   createSubTopicButtons,
@@ -94,6 +95,42 @@ export class SwiftchatMessageService extends MessageService {
       messageData,
       this.apiKey,
     );
+    return response;
+  }
+  async newscorecard(from: string, score: number, totalQuestions: number, badge:string) {
+    //const messageData = createDifficultyButtons(from);
+    const currentDate = new Date()
+    const date =currentDate.getDate()
+    const month =currentDate.getMonth()+1
+    const year =currentDate.getFullYear()%100
+
+
+    console.log(currentDate.getDate())
+    const payload= {
+      to: from,
+      type: "scorecard",
+      scorecard: {
+          theme: "theme2",
+          background: "blue",
+          performance: "high",
+          share_message: "Hey! I got a badge in the Today quiz. Click the link below to take the quiz.",
+          text1:  `Quiz-${date}-${month}-${year}`,
+          text2: "Good job! Keep pushing!",
+          text3: `---------`,
+          text4: `${badge} `,
+          score: `${score}/10`,
+          animation: "confetti"
+      }
+  }
+  
+  const response = await axios.post(this.baseUrl, payload, {
+    headers: {
+      Authorization: `Bearer ${this.apiKey}`,
+      'Content-Type': 'application/json',
+    },
+  });
+    await this.sendScore(from,score,totalQuestions,badge);
+    console.log(response)
     return response;
   }
 

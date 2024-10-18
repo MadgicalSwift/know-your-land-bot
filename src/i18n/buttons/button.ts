@@ -295,7 +295,7 @@ export function buttonWithScore(
       body: {
         type: 'text',
         text: {
-          body: localised.score(score, totalQuestions, badge),
+          body: "congrats🎉! you have completed the quiz🎉 "
         },
       },
       buttons: [

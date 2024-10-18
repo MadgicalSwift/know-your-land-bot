@@ -69,4 +69,5 @@ export abstract class MessageService {
   abstract sendScore(from: string, score: number, totalQuestions: number, badge:string);
   abstract endMessage(from:string);
   abstract sendLanguageChangedMessage(from: string, language: string);
+  abstract newscorecard(from: string,score: number, totalQuestions: number, badge:string);
 }
