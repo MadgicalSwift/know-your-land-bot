@@ -76,7 +76,7 @@ export class ChatbotService {
         user.questionsAnswered = 0;
         user.score = 0;
         await this.userService.saveUser(user);
-        await this.message.sendWelcomeMessage(from, user.language);
+        // await this.message.sendWelcomeMessage(from, user.language);
         await this.message.sendInitialTopics(from);
         return 'ok';
       }

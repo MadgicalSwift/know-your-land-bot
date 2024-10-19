@@ -116,7 +116,7 @@ export class SwiftchatMessageService extends MessageService {
           share_message: "Hey! I got a badge in the Today quiz. Click the link below to take the quiz.",
           text1:  `Quiz-${date}-${month}-${year}`,
           text2: "Good job! Keep pushing!",
-          text3: `---------`,
+          text3: `${score*10}%`,
           text4: `${badge} `,
           score: `${score}/10`,
           animation: "confetti"
@@ -179,7 +179,7 @@ export class SwiftchatMessageService extends MessageService {
     subtopicName: string,
   ) {
     let completeDescription = '';
-    description.forEach((desc, index) => {
+    description.slice(1).forEach((desc, index) => {
       // Add each element to the string, ensuring no commas are added
       completeDescription += desc;
     });
