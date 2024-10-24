@@ -6,9 +6,9 @@ export const localised = {
   welcomeMessage: "😊Welcome to the Dance Form Bot! 🎉 Learn about the diverse dance forms of India according to different states. Ready to explore? Let’s dive into the rhythm of India!",
   validText: ['hi', 'Hi', 'HI', 'hI', 'Hello', 'hello', 'hola'],
   selectSubtopic: (topicName: string) =>
-  `📜 Please select a topic for **${topicName}**:`,
+  `📜 Which state's mesmerizing dance forms are you eager to groove to? 🎶💃 Let's twirl into the world of rhythm and tradition! 🌟🕺:`,
   mainMenu:'Main Menu',
-  chooseTopic:"Which state’s dance forms would you like to explore!",
+  chooseTopic:"Which state’s vibrant dance forms are you excited to explore? 🌍💃 Let the rhythm guide your curiosity! 🎶✨",
   retakeQuiz:'Retake Quiz',
   startQuiz: 'Start Quiz',
   Moreexplanation:'More Explanation',

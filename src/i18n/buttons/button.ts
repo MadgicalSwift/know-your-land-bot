@@ -295,7 +295,7 @@ export function buttonWithScore(
       body: {
         type: 'text',
         text: {
-          body: "congrats🎉! you have completed the quiz🎉 "
+          body: "Congrats🎉! you have completed the quiz🎉 "
         },
       },
       buttons: [
