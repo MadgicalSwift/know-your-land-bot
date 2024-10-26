@@ -6,7 +6,7 @@ export class MixpanelService {
   private mixpanel: any;
 
   constructor() {
-    this.mixpanel = Mixpanel.init('ed404c3a4f0d7ed889a5316c221c1f73', {
+    this.mixpanel = Mixpanel.init('ba102ae98f033015a155ef9f95e7989c', {
       protocol: 'http',
     });
   }
