@@ -60,15 +60,6 @@ export class ChatbotService {
     if (button_response) {
       const buttonBody = button_response.body;
 
-      // Mixpanel tracking data
-      const trackingData = {
-        distinct_id: from,
-        button: buttonBody,
-        botID: botID,
-      };
-
-      this.mixpanel.track('Button_Click', trackingData);
-
       // Handle 'Main Menu' button - reset user quiz data and send welcome message
       if (buttonBody === localised.mainMenu) {
         
@@ -78,6 +69,13 @@ export class ChatbotService {
         await this.userService.saveUser(user);
         // await this.message.sendWelcomeMessage(from, user.language);
         await this.message.sendInitialTopics(from);
+        const trackingData = {
+          distinct_id: from,
+          button: buttonBody,
+          botID: botID,
+        };
+  
+        this.mixpanel.track('Button_Click', trackingData);
         return 'ok';
       }
       // Handle 'Retake Quiz' button - reset quiz progress and send the first question
@@ -97,11 +95,25 @@ export class ChatbotService {
           randomSet,
           user.questionsAnswered,
         );
+        const trackingData = {
+          distinct_id: from,
+          button: buttonBody,
+          botID: botID,
+        };
+  
+        this.mixpanel.track('Button_Click', trackingData);
         return 'ok';
       }
       if(buttonBody=== localised.viewChallenge){
         await this.handleViewChallenges(from, userData);
         await this.message.endMessage(from);
+        const trackingData = {
+          distinct_id: from,
+          button: buttonBody,
+          botID: botID,
+        };
+  
+        this.mixpanel.track('Button_Click', trackingData);
         return 'ok';
       }
       // Handle 'More Explanation' button - send complete explanation for the subtopic
@@ -115,10 +127,14 @@ export class ChatbotService {
           const description = subtopic.description;
 
           await this.message.sendCompleteExplanation(from, description, topic);
-        } else {
-          
-          
-        }
+        } 
+        const trackingData = {
+          distinct_id: from,
+          button: buttonBody,
+          botID: botID,
+        };
+  
+        this.mixpanel.track('Button_Click', trackingData);
         return 'ok';
       }
       // Handle 'Test Yourself' button - show difficulty options to the user
@@ -140,6 +156,13 @@ export class ChatbotService {
         user.selectedSet = randomSet;
         
         await this.userService.saveUser(user);
+        const trackingData = {
+          distinct_id: from,
+          button: buttonBody,
+          botID: botID,
+        };
+  
+        this.mixpanel.track('Button_Click', trackingData);
         return 'ok';
       }
 
@@ -207,6 +230,21 @@ export class ChatbotService {
            
           //   payload
           // );
+          let isAnswer = ""
+        if (result==1){
+          isAnswer = "correct"
+        }
+        else{
+          isAnswer = "incorrect"
+        }
+        const trackingData = {
+          distinct_id: from,
+          user_answer: buttonBody,
+          isAnswer: isAnswer,
+          botID: botID,
+        };
+  
+        this.mixpanel.track('Taking_Quiz', trackingData);
 
           return 'ok';
         }
@@ -219,6 +257,21 @@ export class ChatbotService {
           randomSet,
           user.questionsAnswered,
         );
+        let isAnswer = ""
+        if (result==1){
+          isAnswer = "correct"
+        }
+        else{
+          isAnswer = "incorrect"
+        }
+        const trackingData = {
+          distinct_id: from,
+          user_answer: buttonBody,
+          isAnswer: isAnswer,
+          botID: botID,
+        };
+  
+        this.mixpanel.track('Taking_Quiz', trackingData);
 
         return 'ok';
       }
@@ -235,6 +288,13 @@ export class ChatbotService {
         // console.log("Main topic:", mainTopic)
 
         await this.message.sendSubTopics(from, mainTopic);
+        const trackingData = {
+          distinct_id: from,
+          button: buttonBody,
+          botID: botID,
+        };
+  
+        this.mixpanel.track('Button_Click', trackingData);
       } else {
         // Handle subtopic selection - find the subtopic and send an explanation
         const subtopic = this.topics
@@ -252,9 +312,14 @@ export class ChatbotService {
           await this.userService.saveUser(user);
           // console.log(subtopicName, description)
           await this.message.sendExplanation(from, description, subtopicName);
-        } else {
-          
-        }
+        } 
+        const trackingData = {
+          distinct_id: from,
+          button: buttonBody,
+          botID: botID,
+        };
+  
+        this.mixpanel.track('Button_Click', trackingData);
       }
 
       return 'ok';
