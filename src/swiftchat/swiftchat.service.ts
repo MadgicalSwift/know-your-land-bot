@@ -113,7 +113,7 @@ export class SwiftchatMessageService extends MessageService {
           theme: "theme2",
           background: "blue",
           performance: "high",
-          share_message: "Hey! I got a badge in the Today quiz. Click the link below to take the quiz.",
+          share_message:  "I got a badge! Take the quiz: https://web.convegenius.ai/bots?botId=0255358219043557",
           text1:  `Quiz-${date}-${month}-${year}`,
           text2: "Good job! Keep pushing!",
           text3: `${score*10}%`,
