@@ -384,7 +384,7 @@ export class ChatbotService {
         return;
       }
       // Format the response message with the top 3 students
-      let message = 'Top 3 Users:\n\n';
+      let message = 'Top 10 Users:\n\n';
       topStudents.forEach((student, index) => {
         const totalScore = student.score || 0;
         const studentName = student.name || 'Unknown';

@@ -110,7 +110,7 @@ export class SwiftchatMessageService extends MessageService {
       to: from,
       type: "scorecard",
       scorecard: {
-          theme: "theme2",
+          theme: "theme4",
           background: "blue",
           performance: "high",
           share_message:  "I got a badge! Take the quiz: https://web.convegenius.ai/bots?botId=0255358219043557",

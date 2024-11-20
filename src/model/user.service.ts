@@ -133,7 +133,8 @@ export class UserService {
         const topUsers = filteredUsers
             .filter(user => user['totalScore'] > 0)  
             .sort((a, b) => b['totalScore'] - a['totalScore']) 
-            .slice(0, 3);  
+            .slice(0, 10); 
+            console.log(topUsers);
         return topUsers;
     } catch (error) {
         console.error('Error retrieving top students:', error);
