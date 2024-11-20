@@ -18,7 +18,7 @@ Click the "Fork" button in the upper right corner of the repository page. This w
 
 * Clone this repository:
 ```
-https://github.com/MadgicalSwift/dance-form-bot.git
+https://github.com/MadgicalSwift/know-your-land-bot.git
 ```
 * Navigate to the Project Directory:
 ```
