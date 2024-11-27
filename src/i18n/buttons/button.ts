@@ -311,8 +311,8 @@ export function buttonWithScore(
         },
         {
           type: 'solid',
-          body: 'View Challenges',
-          reply: 'View Challenges',
+          body: 'Scorecard',
+          reply: 'Scorecard',
         }
       ],
       allow_custom_response: false,

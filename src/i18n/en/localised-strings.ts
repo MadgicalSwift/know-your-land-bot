@@ -12,7 +12,7 @@ export const localised = {
   retakeQuiz:'Retake Quiz',
   startQuiz: 'Start Quiz',
   Moreexplanation:'More Explanation',
-  viewChallenge:"View Challenges",
+  Scorecard:"Scorecard",
   endMessage:"Whenever you're ready to continue, just type 'Hi' to start the bot again. Looking forward to helping you out! 😊",
   explanation: (subtopicName: string, description: string) =>
   `📖 **Explanation of ${subtopicName}:**\n${description}`,

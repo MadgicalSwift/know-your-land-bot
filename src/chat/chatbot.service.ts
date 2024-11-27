@@ -104,8 +104,8 @@ export class ChatbotService {
         this.mixpanel.track('Button_Click', trackingData);
         return 'ok';
       }
-      if(buttonBody=== localised.viewChallenge){
-        await this.handleViewChallenges(from, userData);
+      if(buttonBody=== localised.Scorecard){
+        await this.handleScorecard(from, userData);
         await this.message.endMessage(from);
         const trackingData = {
           distinct_id: from,
@@ -365,7 +365,7 @@ export class ChatbotService {
 
     return 'ok';
   }
-  async handleViewChallenges(from: string, userData: any): Promise<void>{
+  async handleScorecard(from: string, userData: any): Promise<void>{
     try { 
       console.log(userData)
       const topStudents = await this.userService.getTopStudents(
